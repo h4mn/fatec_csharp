@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\css\sign-in.css" />
     <Content Include="Web.config" />
     <Content Include="default.aspx" />
   </ItemGroup>
