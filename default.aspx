@@ -57,7 +57,8 @@
             <asp:TextBox ID="TextBox_Observacoes" runat="server" MaxLength="255" TextMode="MultiLine" Rows="6"></asp:TextBox>
             <br />
 
-            <asp:Button ID="Button_Enviar" runat="server" Text="Enviar" OnClick="Page_Load"/>
+            <!-- <asp:Button ID="Button_Enviar" runat="server" Text="Enviar" OnClick="Page_Load"/> /-->
+            <asp:Button ID="Button1" runat="server" Text="Enviar" OnClick="OnClick_Enviar"/>
 
         </div>
     </form>
