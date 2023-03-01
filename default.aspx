@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="fatec_csharp.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="fatec_csharp._default" %>
 
 <!DOCTYPE html>
 
@@ -8,11 +8,56 @@
     <title>Aula 03</title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="Form_Cadastro" runat="server">
         <div style="margin-left:60px; padding:20px; border: 1px solid #c0c0c0;">
             <h2>Cadastro de Cliente</h2>
             <br />
-            <asp:Label ID="Label1" runat="server" Text="Mensagem"></asp:Label>
+            <asp:Label ID="Lbl_Mensagem" runat="server" Text="Mensagem" Font-Size="20px" ForeColor="Red"></asp:Label>
+            <br />
+
+            <br />
+            <label>Nome Completo</label><br />
+            <asp:TextBox ID="TxtBox_NomeCompleto" runat="server" MaxLength="50"></asp:TextBox>
+            <br />
+
+            <label>E-mail</label><br />
+            <asp:TextBox ID="TxtBox_Email" runat="server" MaxLength="255" TextMode="Email"></asp:TextBox>
+            <br />
+
+            <label>Telefone</label><br />
+            <asp:TextBox ID="TxtBox_Telefone" runat="server" MaxLength="15" TextMode="Phone"></asp:TextBox>
+            <br />
+
+            <label>Data Nascimento</label><br />
+            <asp:TextBox ID="TxtBox_Nascimento" runat="server" MaxLength="30" TextMode="Date"></asp:TextBox>
+            <br />
+
+            <label>Sexo</label><br />
+            <asp:RadioButtonList ID="RadioBtnList_Sexo" runat="server">
+                <asp:ListItem Text="Feminino" Value="0" />
+                <asp:ListItem Text="Masculino" Value="1" />
+            </asp:RadioButtonList>
+            <br />
+
+            <label>Atividade</label><br />
+            <asp:DropDownList ID="DropDownList_Atividade" runat="server">
+                <asp:ListItem Text="Selecione" Value="0" />
+                <asp:ListItem Text="Gerente" Value="1" />
+                <asp:ListItem Text="Supervisor" Value="2" />
+                <asp:ListItem Text="Compras" Value="3" />
+                <asp:ListItem Text="RH" Value="4" />
+            </asp:DropDownList>
+            <br />
+
+            <label>Num. Funcionários</label><br />
+            <asp:TextBox ID="TextBox_NumFuncionarios" runat="server" MaxLength="5" TextMode="Number"></asp:TextBox>
+            <br />
+
+            <label>Observações</label><br />
+            <asp:TextBox ID="TextBox_Observacoes" runat="server" MaxLength="255" TextMode="MultiLine" Rows="6"></asp:TextBox>
+            <br />
+
+            <asp:Button ID="Button_Enviar" runat="server" Text="Enviar" OnClick="Page_Load"/>
 
         </div>
     </form>
