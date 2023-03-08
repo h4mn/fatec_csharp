@@ -81,7 +81,8 @@ namespace fatec_csharp
 				Lbl_Mensagem.Text = strDados + $" {Int16.Parse(TextBox_NumFuncionarios.Text) <= 0}";
 
 				// 2. Gravar os dados em um arquivo txt no disco, chamado "cadastro.txt"
-				System.IO.File.WriteAllText(@"C:\Users\0040482222015\Documents\GitHub\fatec_csharp_roslyn_bugado\fatec_csharp\content\cadastro.txt", strDados);
+				string caminho = Context.Server.MapPath("~/content/cadastro.txt");
+				System.IO.File.WriteAllText(caminho, strDados);
 
 			}
 		}
