@@ -54,7 +54,7 @@
             <br />
 
             <label>Observações</label><br />
-            <asp:TextBox ID="TextBox_Observacoes" runat="server" MaxLength="255" TextMode="MultiLine" Rows="6"></asp:TextBox>
+            <asp:TextBox ID="TextBox_Observacoes" runat="server" TextMode="MultiLine" Rows="10"></asp:TextBox>
             <br />
 
             <!-- <asp:Button ID="Button_Enviar" runat="server" Text="Enviar" OnClick="Page_Load"/> /-->
