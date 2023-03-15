@@ -5,12 +5,15 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Diagnostics;
-using Microsoft.VisualBasic;
+using Microsoft.VisualBasic; //Necessário para usar a função IsDate
 
 namespace fatec_csharp
 {
 	public partial class _default : System.Web.UI.Page
 	{
+		// Criar uma contante para o arquivo cadastro
+		const string FILE_CADASTRO = "~/content/cadastro.txt";
+
 		protected void Page_Load(object sender, EventArgs e)
 		{
 			//Lbl_Mensagem.Text = $"Usuário {Request.Form["TxtBox_NomeCompleto"]} cadastrado";
@@ -68,24 +71,37 @@ namespace fatec_csharp
 				//Execute o processamento
 				//Gravar os dados emum arquivo txt no disco
 
-				// 1. construa a string que será gravada do disco, limpando os espaços em branco de cada campo, quebrando a linha com o pipe | até 80 caracteres
-				string strDados = $"{TxtBox_NomeCompleto.Text.Trim()},"
-					+ $"{TxtBox_Email.Text.Trim()},"
-					+ $"{TxtBox_Telefone.Text.Trim()},"
-					+ $"{TxtBox_Nascimento.Text.Trim()},"
-					+ $"{RadioBtnList_Sexo.SelectedValue},"
-					+ $"{DropDownList_Atividade.SelectedValue},"
-					+ $"{TextBox_NumFuncionarios.Text.Trim()},"
-					+ $"{TextBox_Observacoes.Text.Trim()}";
-				
-				Lbl_Mensagem.Text = strDados + $" {Int16.Parse(TextBox_NumFuncionarios.Text) <= 0}";
+				// 1. construa a string que será gravada do disco, concatenando os dados do formulário
+				string strDados = $"{DateTime.Now.ToString("yyyyMMddHHmmss")},"
+					+ $"\"{TxtBox_NomeCompleto.Text.Trim()}\","
+					+ $"\"{TxtBox_Email.Text.Trim()}\","
+					+ $"\"{TxtBox_Telefone.Text.Trim()}\","
+					+ $"\"{TxtBox_Nascimento.Text.Trim()}\","
+					+ $"\"{RadioBtnList_Sexo.SelectedValue}\","
+					+ $"\"{DropDownList_Atividade.SelectedValue}\","
+					+ $"\"{TextBox_NumFuncionarios.Text.Trim()}\","
+					+ $"\"{TextBox_Observacoes.Text.Trim()}\""
+					+ Environment.NewLine;
+
+				// Usar label para depurar
+				// Lbl_Mensagem.Text = strDados + $" {Int16.Parse(TextBox_NumFuncionarios.Text) <= 0}";
+				Lbl_Mensagem.Text = strDados;
 
 				// 2. Gravar os dados em um arquivo txt no disco, chamado "cadastro.txt"
-				string caminho = Context.Server.MapPath("~/content/cadastro.txt");
-				System.IO.File.WriteAllText(caminho, strDados);
+				string caminho = Context.Server.MapPath(FILE_CADASTRO);
+				System.IO.File.AppendAllText(caminho, strDados);
 
 			}
 		}
 
-	}
+        protected void OnClick_Excluir(object sender, EventArgs e)
+        {
+			// Excluir o arquivo cadastro.txt
+			string caminho = Context.Server.MapPath(FILE_CADASTRO);
+			
+			// Verifica se o arquivo existe
+			if (System.IO.File.Exists(caminho))
+				System.IO.File.Delete(caminho);
+        }
+    }
 }

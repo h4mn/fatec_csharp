@@ -16,9 +16,18 @@
             <br />
 
             <br />
+
+            <!-- Teste de conexão /-->
             <label>Nome Completo</label><br />
             <asp:TextBox ID="TxtBox_NomeCompleto" runat="server" MaxLength="50"></asp:TextBox>
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="AccessDataSource1" EmptyDataText="Não há registros de dados a serem exibidos.">
+                <Columns>
+                    <asp:BoundField DataField="nome" HeaderText="nome" SortExpression="nome" />
+                </Columns>
+            </asp:GridView>
+            <asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="App_Data\dados.accdb" SelectCommand="SELECT `nome` FROM `usuarios`"></asp:AccessDataSource>
             <br />
+
 
             <label>E-mail</label><br />
             <asp:TextBox ID="TxtBox_Email" runat="server" MaxLength="255" TextMode="Email"></asp:TextBox>
@@ -59,6 +68,10 @@
 
             <!-- <asp:Button ID="Button_Enviar" runat="server" Text="Enviar" OnClick="Page_Load"/> /-->
             <asp:Button ID="Button1" runat="server" Text="Enviar" OnClick="OnClick_Enviar"/>
+
+            <asp:Button ID="Button2" runat="server" Text="Excluir" OnClick="OnClick_Excluir"/>
+
+
 
         </div>
     </form>
