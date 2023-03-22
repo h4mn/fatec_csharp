@@ -1,4 +1,18 @@
-﻿using System;
+﻿/**
+ * @file default.aspx.cs
+ * @brief Arquivo com a implementação da página default.aspx
+ * @details Resultado do aprendizado das aulas 01 a 05 do curso de C# da FATEC Americana
+ *
+ * @version 1.0
+ * @date 2023-03-22
+ * @author Hadston Nunes
+ * @bug A concatenação das vírgulas pode ocasionar problemas dependendo de como for feita a leitura dos dados
+ *
+ * @note O sucesso é a soma de pequenos esforços, repetidos dia após dia. - Robert Collier
+ * @note Sucesso = Motivação + Treino + Foco (Diógenes de Oliveira)
+  */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,12 +27,20 @@ namespace fatec_csharp
 	{
 		// Criar uma contante para o arquivo cadastro
 		const string FILE_CADASTRO = "~/content/cadastro.txt";
+		
+		// Propriedade booleana para verificar se o arquivo existe (Definição em uma linha)
+		bool ExibirBotaoExcluir => System.IO.File.Exists(Context.Server.MapPath(FILE_CADASTRO)) & !IsPostBack;
+
+		// Evento que escuta a propriedade ExibirBotaoExcluir e exibe ou oculta o botão Excluir
+
 
 		protected void Page_Load(object sender, EventArgs e)
 		{
 			//Lbl_Mensagem.Text = $"Usuário {Request.Form["TxtBox_NomeCompleto"]} cadastrado";
 			//Debug.WriteLine(Request.Form["TxtBox_NomeCompleto"]);
 			//Debug.WriteLine(Request.Form["TxtBox_Email"]);
+			
+			Button2.Visible = ExibirBotaoExcluir;
 		}
 		protected void OnClick_Enviar(object sender, EventArgs e)
 		{
@@ -91,7 +113,21 @@ namespace fatec_csharp
 				string caminho = Context.Server.MapPath(FILE_CADASTRO);
 				System.IO.File.AppendAllText(caminho, strDados);
 
+				Button2.Visible = ExibirBotaoExcluir;
+				OnClick_Limpar(sender, e);
 			}
+		}
+
+		protected void OnClick_Limpar(object sender, EventArgs e) {
+			TxtBox_NomeCompleto.Text = "";
+			TxtBox_Email.Text = "";
+			TxtBox_Telefone.Text = "";
+			TxtBox_Nascimento.Text = "";
+			RadioBtnList_Sexo.SelectedValue = "";
+			DropDownList_Atividade.SelectedValue = "0";
+			TextBox_NumFuncionarios.Text = "";
+			TextBox_Observacoes.Text = "";
+			Lbl_Mensagem.Text = "";
 		}
 
         protected void OnClick_Excluir(object sender, EventArgs e)
@@ -102,6 +138,8 @@ namespace fatec_csharp
 			// Verifica se o arquivo existe
 			if (System.IO.File.Exists(caminho))
 				System.IO.File.Delete(caminho);
+
+			Button2.Visible = ExibirBotaoExcluir;
         }
     }
 }
