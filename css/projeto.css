@@ -1,4 +1,4 @@
-﻿body {
+body {
     margin: 0;
     font-family: Arial;
 }
@@ -42,7 +42,7 @@
     left: 81px;
     height: 40px;
     width: 100%;
-    /*background-color: blue;*/
+    /* background-color: blue; */
 }
 .menu a {
     display: inline-block;
@@ -61,8 +61,9 @@
     color: #000;
     border-bottom: 3px solid #000;
 }
-.menu a:current {
-    font-weight: bold;
+.menu-active  {
+    color: #aaa;
+    background-color: #333;
 }
 
 /* CONTEÚDO */

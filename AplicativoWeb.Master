@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>AplicativoWeb</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="css/projeto.css" rel="stylesheet" />
@@ -13,18 +13,21 @@
 <body>
     <!-- CABEÇALHO -->
     <div class="cabecalho">
+
         <!-- LOGOMARCA -->
         <div class="logomarca">
             <img src="imagens/logo.svg" />
         </div>
+
         <!-- BARRA DE TÍTULO -->
         <div class="titulo">
             <h1>Aplicativo Web</h1>
         </div>
+
         <!-- MENU -->
-        <div class="menu">
-            <a href="default.aspx">Home</a>
-            <a href="about.aspx">Sobre</a>
+        <div id="menu" class="menu">
+            <a href="default.aspx" onclick=MarcarMenuItem(this)>Home</a>
+            <a href="about.aspx" >Sobre</a>
         </div>
     </div>
 
@@ -33,8 +36,10 @@
         <asp:ContentPlaceHolder ID="conteudo" runat="server">
         </asp:ContentPlaceHolder>
     </div>
+
     <!-- RODAPÉ -->
     <div class="rodape">
+        Hads - 2023
     </div>
 
 </body>
