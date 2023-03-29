@@ -8,13 +8,34 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="css/projeto.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+    <!-- CABEÇALHO -->
+    <div class="cabecalho">
+        <!-- LOGOMARCA -->
+        <div class="logomarca">
+            <img src="imagens/logo.svg" />
         </div>
-    </form>
+        <!-- BARRA DE TÍTULO -->
+        <div class="titulo">
+            <h1>Aplicativo Web</h1>
+        </div>
+        <!-- MENU -->
+        <div class="menu">
+            <a href="default.aspx">Home</a>
+            <a href="about.aspx">Sobre</a>
+        </div>
+    </div>
+
+    <!-- CONTEÚDO -->
+    <div class="conteudo">
+        <asp:ContentPlaceHolder ID="conteudo" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <!-- RODAPÉ -->
+    <div class="rodape">
+    </div>
+
 </body>
 </html>

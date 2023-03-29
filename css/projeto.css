@@ -1,0 +1,77 @@
+﻿body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+    height: 81px;
+    width: 100%;
+    /* permite que elementos tenham posições ABSOLUTAS dentro do cabeçalho */
+    position: relative;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+/* LOGOMARCA */
+.logomarca {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    /*background-color: red;*/
+}
+
+/* BARRA DE TÍTULO */
+.titulo {
+    position: absolute;
+    top: 0;
+    left: 81px;
+    height: 40px;
+    width: 100%;
+    /*background-color: green;*/
+}
+.titulo h1 {
+    margin: 0;
+}
+
+/* MENU */
+.menu {
+    position: absolute;
+    top: 40px;
+    left: 81px;
+    height: 40px;
+    width: 100%;
+    /*background-color: blue;*/
+}
+.menu a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #333;
+    font-size: 14px;
+    margin-left: 4px;    
+    margin-right: 4px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+.menu a:hover {
+    color: #000;
+    border-bottom: 3px solid #000;
+}
+.menu a:current {
+    font-weight: bold;
+}
+
+/* CONTEÚDO */
+.conteudo {
+    min-height: 800px;
+}
+
+/* RODAPÉ */
+.rodape {
+    height: 200%;
+    background-color: #dbdbdb;
+}
