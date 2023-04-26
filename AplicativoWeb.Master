@@ -27,6 +27,7 @@
         <!-- MENU -->
         <div id="menu" class="menu">
             <a href="default.aspx" onclick=MarcarMenuItem(this)>Home</a>
+            <a href="Pages/Contato.aspx" onclick=MarcarMenuItem(this)>Contato</a>
             <a href="about.aspx" >Sobre</a>
         </div>
     </div>

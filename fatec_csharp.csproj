@@ -71,6 +71,7 @@
     <Content Include="about.aspx" />
     <Content Include="css\projeto.css" />
     <Content Include="default.aspx" />
+    <Content Include="Pages\Contato.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +96,13 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Contato.aspx.cs">
+      <DependentUpon>Contato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Contato.aspx.designer.cs">
+      <DependentUpon>Contato.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -109,7 +117,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="javascript\" />
-    <Folder Include="pages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
