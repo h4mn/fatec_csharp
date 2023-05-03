@@ -1,0 +1,24 @@
+Data: 03/05/2023 09:41:27
+Mensagem: Falha ao enviar email.
+Type: System.Net.Mail.SmtpException
+Source: System
+StackTrace:    em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   em site.Contact.btnEnviar_Click(Object sender, EventArgs e) na C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\Contact.aspx.cs:linha 49
+TargetSite: Void Send(System.Net.Mail.MailMessage)
+--------------------------------------------------
+Data: 03/05/2023 09:42:06
+Mensagem: Falha ao enviar email.
+Type: System.Net.Mail.SmtpException
+Source: System
+StackTrace:    em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   em site.Contact.btnEnviar_Click(Object sender, EventArgs e) na C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\Contact.aspx.cs:linha 49
+TargetSite: Void Send(System.Net.Mail.MailMessage)
+--------------------------------------------------
+Data: 03/05/2023 09:46:16
+Mensagem: Falha ao enviar email.
+Type: System.Net.Mail.SmtpException
+Source: System
+StackTrace:    em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   em site.Contact.btnEnviar_Click(Object sender, EventArgs e) na C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\Contact.aspx.cs:linha 49
+TargetSite: Void Send(System.Net.Mail.MailMessage)
+--------------------------------------------------
