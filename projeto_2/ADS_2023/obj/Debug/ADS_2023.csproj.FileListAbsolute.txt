@@ -11,3 +11,4 @@ C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\obj\Debu
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\obj\Debug\ADS_2023.csproj.CopyComplete
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\obj\Debug\ADS_2023.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\obj\Debug\ADS_2023.pdb
+C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\bin\Debug\ADS_2023.xml

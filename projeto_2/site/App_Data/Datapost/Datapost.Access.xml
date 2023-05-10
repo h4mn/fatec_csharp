@@ -1,0 +1,219 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Datapost.Access
+</name>
+</assembly>
+<members>
+<member name="T:Datapost.Access.My.Resources.Resources">
+<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+</summary>
+</member>
+<member name="P:Datapost.Access.My.Resources.Resources.ResourceManager">
+<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member>
+<member name="P:Datapost.Access.My.Resources.Resources.Culture">
+<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
+<member name="T:Datapost.Access.DAO">
+ <summary>
+ "ADO-Access Data Object" CLasse para transações(CRUD) no banco de dados OleDb. 
+ </summary>
+</member>
+<member name="P:Datapost.Access.DAO.DataProviderName">
+ <summary>
+ Obtem ou define o nome do provedor de dados 
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:Datapost.Access.DAO.ProviderName.Default">
+ <summary>
+ Default, utilizado quando o provedor esta definido em AppSettings na constante C_CONN_PROVIDER no arquivo web.config.
+ </summary>
+</member>
+<member name="F:Datapost.Access.DAO.ProviderName.OleDb">
+ <summary>
+ Conexão com o banco de dados ACCESS ou EXCEL
+ </summary>
+</member>
+<member name="P:Datapost.Access.DAO.ConnectionString">
+ <summary>
+ Define ou obtem a string de conexão com o banco de dados definida em AppSettings na constante C_CONN_DATABASE no arquivo web.config.
+ Guia de referencias: https://www.connectionstrings.com/
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Datapost.Access.DAO.Sql">
+ <summary>
+ Obtem a Query SQL executada no banco de dados
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Datapost.Access.DAO.LoadRow(System.Object,System.String,System.String,System.Boolean)">
+ <summary>
+ Preenche o model (classe de dados) passado por referência a partir dos dados: keyName: nome da(s) chave(s) primária(s) e KeyValue: valores de cada atributo, na mesma ordem.
+ </summary>
+ <param name="model">Model da tabela do banco de dados</param>
+ <param name="keyName">Nome das colunas chave primárias, se composta separe cada nome com pipe |  </param>
+ <param name="keyValue">Valor correspondente a cada campo da chave primária, se composta separe cada valo com pipe |</param>
+ <param name="keyType">tipo da chave: True=string, False=number(default)</param>
+ <returns>Retorna false se o registro não foi encontrado</returns>
+</member>
+<member name="M:Datapost.Access.DAO.Insert(System.Object,System.String,System.Boolean)">
+ <summary>
+ Executa um INSERT na tabela do banco de dados definida no Model e retorna o ID do registro inserido.
+ </summary>
+ <param name="model">Model (classe de dados) da tabela do banco de dados</param>
+ <param name="keyName">Nome da chave primária</param>
+ <param name="keyType">(Opcional) tipo da chave: True=string, False=number(default)</param>
+ <returns></returns>
+</member>
+<member name="M:Datapost.Access.DAO.Update(System.Object,System.String,System.String,System.Boolean)">
+ <summary>
+ Executa o comando UPDATE na tabela do banco de dados definida no Model (classe de dados). No registro chave primária "KeyName", indique os Nome(s) da(s) coluna(s) e seus respectivos valores indicados na mesma ordem em "keyValue". 
+ </summary>
+ <param name="model">Nome da classe da tabela do banco de dados</param>
+ <param name="keyName">Nome das colunas chave primárias, se composta separe cada nome com pipe |  </param>
+ <param name="keyValue">Valor correspondente a cada campo da chave primária, se composta separe cada valo com pipe |</param>
+ <param name="keyType">tipo da chave: True=string, False=number(default)</param>
+</member>
+<member name="M:Datapost.Access.DAO.Query(System.String)">
+ <summary>
+ Executa uma transação SQL no banco de dados na conexão definida em 'ConnectionString', no provedor definido em 'DataProviderName'. 
+ </summary>
+ <param name="sql">
+ String com a expressão SQL a ser executada no banco de dados.
+ </param>
+ <returns >
+ Se a expressão contem um SELECT retorna um DataTable resultante da consulta.
+ Para os comandos INSERT, UPDATE ou DELETE, retorna o número de linhas afetadas pelo comando.
+ </returns>
+ <remarks></remarks>
+</member>
+<member name="M:Datapost.Access.DAO.FillDataTable(System.Data.DataTable@,System.String)">
+ <summary>
+ Preenche um DataTable com os dados da consulta SQL
+ </summary>
+ <param name="tb">DataTable passada por referência</param>
+ <param name="sql">Consulta SQL</param>
+</member>
+<member name="M:Datapost.Access.DAO.GetProviderConnection(Datapost.Access.DAO.ProviderName)">
+ <summary>
+ Obtem uma nova instância da classe Connection específica ao provedor de dados informado.
+ </summary>
+ <param name="provider">
+ Nome do provedor de dados.
+ Se Default, assume o provedor definido em AppSettings na constante C_CONN_PROVIDER.
+ </param>
+ <returns>Object Connection</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Datapost.Access.DAO.GetProviderCommand(Datapost.Access.DAO.ProviderName)">
+ <summary>
+ Obtem uma nova instância da classe Command específica ao provedor de dados informado, para executar a transação SQL ou Procedimento Armazenado em uma fonte de dados.
+ </summary>
+ <param name="provider">
+ Nome do provedor de dados.
+ </param>
+ <returns>Object Command</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Datapost.Access.DAO.GetConnectionString">
+ <summary>
+ Retorna a string de conexão com provedor de dados definida na constante C_CONN_DATABASE em AppSettings no web.config.
+ </summary>
+ <returns>C_CONN_DATABASE</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Datapost.Access.UTIL">
+ <summary>
+ Métodos utilitários para Banco de Dados 
+ </summary>
+</member>
+<member name="M:Datapost.Access.UTIL.Filter(System.Object)">
+ <summary>
+ Obtem uma string formalizada. substitui as ocorrencias de um apostrofo por dois.
+ </summary>
+ <param name="exp">Expressão string a ser formalizada.</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Datapost.Access.UTIL.ToDecimal(System.Object)">
+ <summary>
+ Retorna um objeto numerico obtido na cultura corrente convertido para uma string na cultura en-US
+ </summary>
+ <param name="value">Valor a ser convertido</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Datapost.Access.UTIL.GetKeyID">
+ <summary>
+ Obtem um valor de 64 bits sem sinal "ulong", convertido para "TypeKey", que represente um ID exclusivo baseado em um "algoritimo matemático" para ser utilizado como atributo "chave primária" de uma linha de um banco de dados, esta chave precisa de um tipo BIGINT(20) "inteiro assinado de 64bits para ser armazenada".
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Datapost.Access.UTIL.TypeKey">
+ <summary>
+ Obtem o tipo da chave 
+ </summary>
+</member>
+<member name="F:Datapost.Access.UTIL.TypeKey.ToStr">
+ <summary>
+ Obtem o valor string 
+ </summary>
+</member>
+<member name="F:Datapost.Access.UTIL.TypeKey.ToULong">
+ <summary>
+ valor Ulong 64 bits sem sinal
+ </summary>
+</member>
+<member name="F:Datapost.Access.UTIL.TypeKey.ToLong">
+ <summary>
+ valor Long 64 bits com sinal
+ </summary>
+</member>
+<member name="F:Datapost.Access.UTIL.TypeKey.ToHex">
+ <summary>
+ valor hexadecimal
+ </summary>
+</member>
+<member name="F:Datapost.Access.UTIL.TypeKey.ToEncrypt">
+ <summary>
+ valor Encriptado
+ </summary>
+</member>
+<member name="F:Datapost.Access.UTIL.TypeKey.ToString">
+ <summary>
+ valor String
+ </summary>
+</member>
+<member name="M:Datapost.Access.UTIL.RandomGenerator">
+ <summary>
+ Gera um número aleatório (27/10/2018) 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Datapost.Access.UTIL.Encrypt(System.String)">
+ <summary>
+ Criptografa uma expressão string para um código de chave simétrica.
+ </summary>
+ <param name="expr">Expressão a ser criptografada</param>
+ <returns></returns>
+</member>
+<member name="M:Datapost.Access.UTIL.Decrypt(System.String)">
+ <summary>
+ Descriptografa a expressão criptografada por Encrypt()
+ </summary>
+ <param name="expr">expressão criptografada por Encrypt()</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

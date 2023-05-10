@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ADS_2023</name>
+    </assembly>
+    <members>
+        <member name="T:ADS_2023.RecoverExceptions">
+            <summary>
+            Responsável por salvar as exceções em um arquivo de texto
+            </summary>
+        </member>
+        <member name="M:ADS_2023.RecoverExceptions.GetCaminhoFisico">
+            <summary>
+            Retorna o caminho físico do arquivo de "LogExceptions.txt"
+            </summary>
+        </member>
+        <member name="M:ADS_2023.RecoverExceptions.SaveExceptions_(System.Exception)">
+            <summary>
+            Salva as exceções em um arquivo de texto
+            </summary>
+        </member>
+        <member name="M:ADS_2023.RecoverExceptions.SaveExceptions(System.Exception)">
+            <summary>
+            Salva as exceções em um arquivo de texto
+            </summary>
+        </member>
+        <member name="M:ADS_2023.RecoverExceptions.ReadExceptions_">
+            <summary>
+            Lê as exceções salvas no arquivo de texto
+            </summary>
+        </member>
+        <member name="M:ADS_2023.RecoverExceptions.ReadExceptions">
+            <summary>
+            Lê as exceções salvas no arquivo de texto
+            </summary>
+        </member>
+    </members>
+</doc>

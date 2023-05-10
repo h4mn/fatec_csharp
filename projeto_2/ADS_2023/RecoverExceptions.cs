@@ -14,6 +14,9 @@ namespace ADS_2023
     /// </summary>
     public static class RecoverExceptions
     {
+        /// <summary>
+        /// Retorna o caminho físico do arquivo de "LogExceptions.txt"
+        /// </summary>
         public static string GetCaminhoFisico()
         {
             //Retorna o caminho físico do arquivo de "LogExceptions.txt"
@@ -22,6 +25,9 @@ namespace ADS_2023
             return caminhoFisico;
         }
 
+        /// <summary>
+        /// Salva as exceções em um arquivo de texto
+        /// </summary>
         public static void SaveExceptions_(Exception ex)
         {
             string conteudo = "Date: " + DateTime.Now.ToString() + "\n";
@@ -36,9 +42,11 @@ namespace ADS_2023
 
         }
 
+        /// <summary>
+        /// Salva as exceções em um arquivo de texto
+        /// </summary>
         public static void SaveExceptions(Exception ex)
         {
-
             string filePath = GetCaminhoFisico();
             List<Dictionary<string, string>> exceptions = new List<Dictionary<string, string>>();
 
@@ -47,27 +55,37 @@ namespace ADS_2023
                 string jsonContent = File.ReadAllText(filePath);
                 if (!string.IsNullOrEmpty(jsonContent))
                 {
-                    exceptions = JsonConvert.DeserializeObject<List<Dictionary<string, string>>>(jsonContent);
+                    try
+                    {
+                        exceptions = JsonConvert.DeserializeObject<List<Dictionary<string, string>>>(jsonContent);
+                    }
+                    catch (JsonException)
+                    {
+                        // O arquivo pode estar corrompido ou em um formato inválido. 
+                        // Neste caso, ignore o erro e comece com uma lista vazia de exceções.
+                    }
                 }
             }
 
             Dictionary<string, string> exceptionData = new Dictionary<string, string>
-        {
-            { "Date", DateTime.Now.ToString() },
-            { "Message", ex.Message },
-            { "Type", ex.GetType().ToString() },
-            { "Source", ex.Source },
-            { "StackTrace", ex.StackTrace },
-            { "TargetSite", ex.TargetSite.ToString() }
-        };
+            {
+                { "Date", DateTime.Now.ToString() },
+                { "Message", ex.Message },
+                { "Type", ex.GetType().ToString() },
+                { "Source", ex.Source },
+                { "StackTrace", ex.StackTrace },
+                { "TargetSite", ex.TargetSite?.ToString() }
+            };
 
             exceptions.Add(exceptionData);
 
             string jsonExceptions = JsonConvert.SerializeObject(exceptions, Formatting.Indented);
             File.WriteAllText(filePath, jsonExceptions);
-
         }
 
+        /// <summary>
+        /// Lê as exceções salvas no arquivo de texto
+        /// </summary>
         public static string ReadExceptions_()
         {
             string conteudo = System.IO.File.ReadAllText(GetCaminhoFisico());
@@ -75,6 +93,9 @@ namespace ADS_2023
             return conteudo;
         }
 
+        /// <summary>
+        /// Lê as exceções salvas no arquivo de texto
+        /// </summary>
         public static List<Dictionary<string, string>> ReadExceptions()
         {
             string filePath = GetCaminhoFisico();
