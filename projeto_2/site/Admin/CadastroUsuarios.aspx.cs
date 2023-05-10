@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Datapost.Access;
 
 namespace site.Admin
 {
@@ -17,7 +18,7 @@ namespace site.Admin
         protected void btnInserir_Click(object sender, EventArgs e)
         {
             // Validar os campos do formulário
-            if (txtNome.Text == string.Empty)
+            if (txtNomeAcesso.Text == string.Empty)
             {
                 lblMensagem.Text = "O campo Nome é obrigatório!";
                 return;
@@ -30,6 +31,12 @@ namespace site.Admin
 
                 //<!-- Campos: Nome Completo, Email, NomeAcesso, Anotacoes, Senha -->
                 string comando = $"INSERT INTO Usuarios (NomeCompleto, Email, NomeAcesso, Anotacoes, Senha) VALUES ('{txtNome.Text}', '{txtEmail.Text}', '{txtNomeAcesso.Text}', '{txtAnotacoes.Text}', '{txtSenha.Text}')";
+
+                // Criar objeto da classe AcessoDados
+                DAO acesso = new DAO(conexao);
+                acesso.DataProviderName = DAO.DataProvider.OleDb;
+                acesso.ConnectionString = conexao;
+                acesso.Query = comando;
             }
 
 
