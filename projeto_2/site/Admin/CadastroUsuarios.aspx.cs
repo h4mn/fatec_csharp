@@ -44,8 +44,21 @@ namespace site.Admin
                 acesso.Query(comando);
 
                 CarregarGrid();
+                LimparCampos();
             }
             lblMensagem.Text = "Usuário cadastrado com sucesso!";
+        }
+
+        protected void LimparCampos()
+        {
+            Codigo.Text = "";
+            txtNomeCompleto.Text = "";
+            txtEmail.Text = "";
+            txtNomeAcesso.Text = "";
+            txtAnotacoes.Text = "";
+            txtSenha.Text = "";
+            btnSalvar.Text = "Inserir";
+            btnExcluir.Visible = false;
         }
 
         protected void CarregarGrid()
@@ -76,6 +89,25 @@ namespace site.Admin
             txtSenha.Text = tabela.Rows[0]["Senha"].ToString();
 
             btnSalvar.Text = "Alterar";
+            btnExcluir.Visible = true;
         }
+
+        protected void btnExcluir_Click(object sender, EventArgs e)
+        {
+            string comando = $"DELETE FROM Usuarios WHERE Codigo = {Codigo.Text};";
+
+            acesso.DataProviderName = DAO.ProviderName.OleDb;
+            acesso.ConnectionString = conexao;
+            acesso.Query(comando);
+            CarregarGrid();
+            LimparCampos();
+            lblMensagem.Text = "Usuário excluído com sucesso!";
+        }
+
+        protected void btnLimpar_Click(object sender, EventArgs e)
+        {
+            LimparCampos();
+        }
+
     }
 }

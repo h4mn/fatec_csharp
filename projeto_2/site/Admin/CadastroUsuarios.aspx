@@ -36,6 +36,8 @@
                     <br />
 
                     <asp:Button ID="btnSalvar" runat="server" Text="Inserir" CssClass="btn btn-primary" OnClick="btnInserir_Click" />
+
+                    <asp:Button ID="btnExcluir" runat="server" Text="Excluir" CssClass="btn botao-delete" OnClick="btnExcluir_Click" Visible="false" />
                 </div>
             </div>
             <!-- Coluna da grid -->
