@@ -24,6 +24,15 @@ namespace site.Admin
         protected global::System.Web.UI.WebControls.Label lblMensagem;
 
         /// <summary>
+        /// Controle Codigo.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Codigo;
+
+        /// <summary>
         /// Controle lblNomeCompleto.
         /// </summary>
         /// <remarks>

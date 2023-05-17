@@ -1,4 +1,5 @@
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\bin\Debug\ADS_2023.dll.config
+C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\bin\Debug\ADS_2023.xml
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\bin\Debug\ADS_2023.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\bin\Debug\ADS_2023.pdb
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\bin\Debug\Newtonsoft.Json.Bson.dll
@@ -6,9 +7,7 @@ C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\bin\Debu
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\bin\Debug\Newtonsoft.Json.xml
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\bin\Debug\Newtonsoft.Json.Bson.pdb
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\bin\Debug\Newtonsoft.Json.Bson.xml
-C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\obj\Debug\ADS_2023.csproj.AssemblyReference.cache
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\obj\Debug\ADS_2023.csproj.CoreCompileInputs.cache
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\obj\Debug\ADS_2023.csproj.CopyComplete
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\obj\Debug\ADS_2023.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\obj\Debug\ADS_2023.pdb
-C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\ADS_2023\bin\Debug\ADS_2023.xml

@@ -50,9 +50,11 @@ C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\roslyn\v
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\roslyn\vbc.rsp
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\roslyn\VBCSCompiler.exe
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\ADS_2023.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Antlr3.Runtime.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\AspNet.ScriptManager.bootstrap.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Datapost.Access.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Microsoft.AspNet.FriendlyUrls.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -62,8 +64,13 @@ C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Microsof
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Newtonsoft.Json.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\System.Web.Optimization.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\WebGrease.dll
-C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\System.Web.Optimization.xml
+C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\ADS_2023.pdb
+C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\ADS_2023.xml
+C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\ADS_2023.dll.config
+C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Datapost.Access.pdb
+C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Datapost.Access.xml
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Newtonsoft.Json.xml
+C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\System.Web.Optimization.xml
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Antlr3.Runtime.pdb
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
@@ -74,10 +81,3 @@ C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\obj\Debug\si
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\obj\Debug\site.csproj.CopyComplete
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\obj\Debug\site.dll
 C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\obj\Debug\site.pdb
-C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\ADS_2023.dll
-C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\ADS_2023.pdb
-C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\ADS_2023.dll.config
-C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\ADS_2023.xml
-C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Datapost.Access.dll
-C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Datapost.Access.pdb
-C:\Users\0040482222015\Documents\GitHub\fatec_csharp\projeto_2\site\bin\Datapost.Access.xml

@@ -1,18 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Data;
 using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using Datapost.Access;
 
 namespace site.Admin
 {
     public partial class CadastroUsuarios : System.Web.UI.Page
     {
+        // https://www.connectionstrings.com/access
+        string conexao = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={HttpContext.Current.Server.MapPath("~/App_Data/Usuarios.accdb")};Persist Security Info=False;";
+
+        DAO acesso = new DAO();
+
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                CarregarGrid();
+            }
         }
 
         protected void btnInserir_Click(object sender, EventArgs e)
@@ -23,29 +28,54 @@ namespace site.Admin
                 lblMensagem.Text = "O campo Nome é obrigatório!";
                 return;
             } else {
-                try
+                string comando = "";
+
+                if (Codigo.Text == "")
                 {
-                    // Se os campos estiverem válidos, então cria conexão com o banco de dados
-                    // https://www.connectionstrings.com/access
-                    string conexao = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={HttpContext.Current.Server.MapPath("~/App_Data/Database/Usuarios.accdb")};Persist Security Info=False;";
-
-                    //<!-- Campos: Nome Completo, Email, NomeAcesso, Anotacoes, Senha -->
-                    string comando = $"INSERT INTO Usuarios (NomeCompleto, Email, NomeAcesso, Anotacoes, Senha) VALUES ('{txtNomeCompleto.Text}', '{txtEmail.Text}', '{txtNomeAcesso.Text}', '{txtAnotacoes.Text}', '{txtSenha.Text}')";
-
-                    DAO acesso = new DAO();
-                    acesso.DataProviderName = DAO.ProviderName.OleDb;
-                    acesso.ConnectionString = conexao;
-                    acesso.Query(comando);
+                    comando = $"INSERT INTO Usuarios (NomeCompleto, Email, NomeAcesso, Anotacoes, Senha) VALUES ('{txtNomeCompleto.Text}', '{txtEmail.Text}', '{txtNomeAcesso.Text}', '{txtAnotacoes.Text}', '{txtSenha.Text}')";
+                }
+                else
+                {
+                    comando = $"UPDATE Usuarios SET NomeCompleto='{txtNomeCompleto.Text}', Email='{txtEmail.Text}', NomeAcesso='{txtNomeAcesso.Text}', Anotacoes='{txtAnotacoes.Text}', Senha='{txtSenha.Text}' WHERE Codigo = {Codigo.Text}";
 
                 }
-                catch (Exception)
-                {
+                acesso.DataProviderName = DAO.ProviderName.OleDb;
+                acesso.ConnectionString = conexao;
+                acesso.Query(comando);
 
-                    throw;
-                }
+                CarregarGrid();
             }
             lblMensagem.Text = "Usuário cadastrado com sucesso!";
         }
-       
+
+        protected void CarregarGrid()
+        {
+            //Carrega o GridView com os dados da tabela Usuarios
+            string comando = "SELECT Codigo, NomeCompleto FROM Usuarios ORDER BY NomeCompleto;";
+            acesso.DataProviderName = DAO.ProviderName.OleDb;
+            acesso.ConnectionString = conexao;
+            ViewUsuarios.DataSource = acesso.Query(comando);
+            ViewUsuarios.DataBind();
+        }
+
+        protected void ViewUsuarios_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+            //Preenche os campos do formulário com os dados do registro selecionado no GridView
+            Codigo.Text = ViewUsuarios.SelectedRow.Cells[1].Text;
+            string comando = $"SELECT * FROM Usuarios WHERE Codigo = {Codigo.Text};";
+
+            acesso.DataProviderName = DAO.ProviderName.OleDb;
+            acesso.ConnectionString = conexao;
+            DataTable tabela = new DataTable();
+            tabela = (DataTable)acesso.Query(comando);
+
+            txtNomeCompleto.Text = tabela.Rows[0]["NomeCompleto"].ToString();
+            txtEmail.Text = tabela.Rows[0]["Email"].ToString();
+            txtNomeAcesso.Text = tabela.Rows[0]["NomeAcesso"].ToString();
+            txtAnotacoes.Text = tabela.Rows[0]["Anotacoes"].ToString();
+            txtSenha.Text = tabela.Rows[0]["Senha"].ToString();
+
+            btnSalvar.Text = "Alterar";
+        }
     }
 }

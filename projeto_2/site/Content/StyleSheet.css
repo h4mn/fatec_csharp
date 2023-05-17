@@ -1,0 +1,291 @@
+﻿/***********************************************************
+  CSS 
+
+***********************************************************/
+
+* {
+    -webkit-box-sizing: border-box !important; /* Safari/Chrome */
+    -moz-box-sizing: border-box !important; /* Firefox */
+    box-sizing: border-box !important; /* IE8+/ Opera */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 150%; /* define a altura da linha de texto */
+    color: #333333;
+}
+
+.content-wrap {
+    max-width: 1024px;
+    margin: auto;
+}
+
+hr {
+    height: 1px;
+    border-width: 0;
+    border-top: 1px solid;
+    border-top-color: #bbbbbb;
+    width: 100%;
+    display: inline-block;
+}
+
+
+/* Instala a fonte open sans */
+/*@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    src: url('../fonts/open-sans/OpenSans-Light.ttf');
+}
+*/
+
+/**************************************** 
+ RECURSOS PARA LAYOUT EM COLUNAS 
+*****************************************/
+/* Linha para criar as colunas */
+.row {
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.66666666%;
+}
+
+.col-10 {
+    width: 83.3333333%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.66666667%;
+}
+
+.col-7 {
+    width: 58.33333333%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.66666667%;
+}
+
+.col-4 {
+    width: 33.33333333%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.66666667%;
+}
+
+.col-1 {
+    width: 8.33333333%;
+}
+
+.box {
+    padding: 20px;
+    min-height:550px;
+}
+
+.border {
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+/*******************************************************************
+CONTROLES DE FORMULÁRIOS
+********************************************************************/
+
+label {
+    margin-top: 20px;
+    display: block;
+    max-width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+label.destaque {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #555555;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    resize: none;
+    outline: none;
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+    margin-top: 30px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    color: white;
+    background-color: #355bc6;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+    input[type="submit"]:hover,
+    input[type="button"]:hover,
+    button:hover {
+        background-color: #293b90;
+        color: white;
+    }
+
+
+.botao-delete {
+    background-color: #ff6a00 !important;
+}
+
+    .botao-delete:hover {
+        background-color: #ff4500 !important;
+    }
+
+.botao-editar {
+    background-color: #498b47 !important;
+}
+
+    .botao-editar:hover {
+        background-color: #37a533 !important;
+    }
+
+.botao-inserir {
+    background-color: #355bc6 !important;
+}
+
+    .botao-inserir:hover {
+        background-color: #293b90 !important;
+    }
+
+/*******************************************************************
+LAYOUT DE MíDIAS
+tem que ser as ultimas definições
+********************************************************************/
+@media only screen and (max-width: 768px) {
+
+    /* 
+        SELETORES DE ATRIBUTOS [] 
+        https://www.w3schools.com/css/css_attribute_selectors.asp 
+    */
+
+    [class^="col-"] {
+        width: 100%;
+    }
+
+    [class=content-wrapper] {
+        padding: 0px;
+        margin: 6px;
+    }
+
+    [class*="box-border"] {
+        border: 0px;
+        padding: 0px;
+    }
+
+    [class*="box-padding-16"] {
+        border: 0px;
+        padding: 0px;
+    }
+
+    [class=dp-hr] {
+        display: inline-block;
+    }
+
+    /* FORMS ****************/
+
+    .form-input {
+        border: 0px;
+        padding: 0px;
+        padding-top: 20px;
+        /*border-radius: 0;*/
+    }
+
+    .form-view {
+        border: 0px;
+        padding: 0px;
+        padding-top: 1px;
+        /*border-radius: 0;*/
+    }
+
+        .form-view .ht {
+            display: none;
+        }
+
+    .side-panel {
+        padding-left: 0 !important;
+    }
+
+    /* MENU RESPONSIVO ****************/
+    .menu {
+        display: none;
+    }
+
+    .menu-mobile-buttons {
+        display: inline-block;
+    }
+
+    .logotype {
+        float: right;
+    }
+
+    [class=logotype-img] {
+        max-width: 240px;
+    }
+}
+
+/* CONFIGURAÇÃO DA IMPRESSÃO */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #Printable * {
+        visibility: visible;
+    }
+}
