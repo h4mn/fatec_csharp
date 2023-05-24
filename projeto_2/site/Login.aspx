@@ -6,17 +6,15 @@
             <h1>Entrar</h1>
             <br />
             <br />
-            <asp:Label ID="Msg" runat="server" ></asp:Label>
+            <asp:Label ID="Erro" runat="server" ></asp:Label>
             <br />
             <label>NOME DE ACESSO</label>
             <asp:TextBox ID="NomeAcesso" runat="server"></asp:TextBox>
             <label>SENHA</label>
-            <asp:TextBox ID="Senha" TextMode="Password"
-            runat="server"></asp:TextBox>
+            <asp:TextBox ID="Senha" TextMode="Password" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="Entrar" OnClick="Entrar_Click"
-            runat="server" Text="Entrar" />
+            <asp:Button ID="Entrar" OnClick="Entrar_Click" runat="server" Text="Entrar" />
             <br />
             </div>
         </div>        

@@ -21,22 +21,22 @@ namespace site
                 // Cria a variavel de sessão para identificar que o usuário esta autenticado e
                 // permitir a exibição das opções do menu.
                 Session["autenticado"] = "";
+                
                 // 1. Inicializa a classe de autenticação
                 System.Web.Security.FormsAuthentication.Initialize();
-                // 2. CRIAR O TICKET
-                FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(1, "admin",
-                DateTime.Now, DateTime.Now.AddMinutes(20), false,
-                FormsAuthentication.FormsCookiePath);
+                
+                // 2. CRIAR O TICKET                
+                //FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(1, "admin", DateTime.Now, DateTime.Now.AddMinutes(20), false, FormsAuthentication.FormsCookiePath);
+                
                 // 3. CRIPTOGRAFA P TICKET E GRAVAR NO COOKIE DO NAVEGADOR
-                Response.Cookies.Add(new HttpCookie(FormsAuthentication.FormsCookieName,
-                FormsAuthentication.Encrypt(ticket)));
+                //Response.Cookies.Add(new HttpCookie(FormsAuthentication.FormsCookieName, FormsAuthentication.Encrypt(ticket)));
+                
                 // Redireciona para o form que o usuário tentou acessar
-                Response.Redirect(FormsAuthentication.GetRedirectUrl("Admin", false));
+                //Response.Redirect(FormsAuthentication.GetRedirectUrl("Admin", false));
             }
             else
             {
                 Erro.Text = "Dados de acesso invalidos";
-            }
             }
         }
     }
