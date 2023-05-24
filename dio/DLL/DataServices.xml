@@ -1,0 +1,152 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DataServices
+</name>
+</assembly>
+<members>
+<member name="T:DataServices.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DataServices.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DataServices.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:DataServices.DataBase.DAO">
+ <summary>
+ "Object Data Access" CLasse para transações(CRUD) nos banco de dados: OleDb, Odbc, MySql, SqlServer, Oracle, SQLite, FireBird, PostGreSql, IBMdb2. 
+ </summary>
+</member>
+<member name="P:DataServices.DataBase.DAO.DataProviderName">
+ <summary>
+ Obtem ou define o nome do provedor de dados 
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:DataServices.DataBase.DAO.ProviderName.Default">
+ <summary>
+ Default, utilizado quando o provedor esta definido em AppSettings na constante C_CONN_PROVIDER no arquivo web.config.
+ </summary>
+</member>
+<member name="F:DataServices.DataBase.DAO.ProviderName.OleDb">
+ <summary>
+ Conexão com o banco de dados ACCESS ou EXCEL
+ </summary>
+</member>
+<member name="P:DataServices.DataBase.DAO.ConnectionString">
+ <summary>
+ Obtem ou define a string de conexão com o banco de dados definida em AppSettings na constante C_CONN_DATABASE no arquivo web.config.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DataServices.DataBase.DAO.Sql">
+ <summary>
+ Obtem a Query SQL executada no banco de dados
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DataServices.DataBase.DAO.LoadRow(System.Object,System.String,System.String,System.Boolean)">
+ <summary>
+ Preenche o model passado por referencia com o dados do registro indicado na chave primária
+ </summary>
+ <param name="model">Model da tabela do banco de dados</param>
+ <param name="keyName">Nome da chave primária</param>
+ <param name="keyValue">Valor da chave primária</param>
+ <param name="tp">tipo da chave: True=string, False=number</param>
+ <returns>Retorna false se o registro não foi encontrado</returns>
+</member>
+<member name="M:DataServices.DataBase.DAO.Insert(System.Object,System.String,System.Boolean)">
+ <summary>
+ Executa um INSERT na tabela do banco de dados definida no Model e retorna o ID do registro inserido.
+ </summary>
+ <param name="model">Model da tabela do banco de dados</param>
+ <param name="keyName">Nome da chave primária</param>
+ <param name="keyType">(Opcional) tipo da chave: True=string, False=number(default)</param>
+ <returns></returns>
+</member>
+<member name="M:DataServices.DataBase.DAO.Update(System.Object,System.String,System.String,System.Boolean)">
+ <summary>
+ Executa o comando UPDATE na tabela do banco de dados definida no Model, no registro indicado em "keyValue" e retorna o número de registros afetados.
+ </summary>
+ <param name="model">Nome da tabela do banco de dados</param>
+ <param name="keyName">Nome da chave primária, se composta separe cada nome com pipe |  </param>
+ <param name="keyValue">Valor da chave primária, se composta separe cada valo com pipe |</param>
+ <param name="keyType">tipo da chave: True=string, False=number(default)</param>
+ <returns></returns>
+</member>
+<member name="M:DataServices.DataBase.DAO.Query(System.String)">
+ <summary>
+ Executa uma transação SQL no banco de dados na conexão definida em 'ConnectionString', no provedor definido em 'DataProviderName'. 
+ </summary>
+ <param name="sql">
+ String com a expressão SQL a ser executada no banco de dados.
+ </param>
+ <returns >
+ Se a expressão contem um SELECT retorna um DataTable resultante da consulta.
+ Para os comandos INSERT, UPDATE ou DELETE, retorna o número de linhas afetadas pelo comando.
+ </returns>
+ <remarks></remarks>
+</member>
+<member name="M:DataServices.DataBase.DAO.FillDataTable(System.Data.DataTable@,System.String)">
+ <summary>
+ Preenche um datatable com os dados da consulta SQL
+ </summary>
+ <param name="tb">DataTable passada por referência</param>
+ <param name="sql">Consulta SQL</param>
+</member>
+<member name="M:DataServices.DataBase.DAO.ToDecimal(System.Object)">
+ <summary>
+ Retorna um objeto numerico obtido na cultura corrente convertido para uma string na cultura en-US
+ </summary>
+ <param name="value">Valor a ser convertido</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DataServices.DataBase.DAO.Filter(System.Object)">
+ <summary>
+ Obtem uma string formalizada. substitui as ocorrencias de um apostrofo por dois.
+ </summary>
+ <param name="exp">Expressão string a ser formalizada.</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DataServices.DataBase.DAO.GetConnectionString">
+ <summary>
+ Retorna a string de conexão com provedor de dados definida na constante C_CONN_DATABASE em AppSettings no web.config.
+ </summary>
+ <returns>C_CONN_DATABASE</returns>
+ <remarks></remarks>
+</member>
+<member name="M:DataServices.DataBase.DAO.GetProviderConnection(DataServices.DataBase.DAO.ProviderName)">
+ <summary>
+ Obtem uma nova instância da classe Connection específica ao provedor de dados informado.
+ </summary>
+ <param name="provider">
+ Nome do provedor de dados.
+ Se Default, assume o provedor definido em AppSettings na constante C_CONN_PROVIDER.
+ </param>
+ <returns>Object Connection</returns>
+ <remarks></remarks>
+</member>
+<member name="M:DataServices.DataBase.DAO.GetProviderCommand(DataServices.DataBase.DAO.ProviderName)">
+ <summary>
+ Obtem uma nova instância da classe Command específica ao provedor de dados informado, para executar a transação SQL ou Procedimento Armazenado em uma fonte de dados.
+ </summary>
+ <param name="provider">
+ Nome do provedor de dados.
+ </param>
+ <returns>Object Command</returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

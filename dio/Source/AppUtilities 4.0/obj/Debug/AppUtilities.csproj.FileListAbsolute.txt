@@ -1,0 +1,20 @@
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\Fatec\bin\Debug\AppUtilities.xml
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\Fatec\bin\Debug\AppUtilities.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\Fatec\bin\Debug\AppUtilities.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\Fatec\obj\Debug\AppUtilities.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\Fatec\obj\Debug\AppUtilities.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\AppUtilities\bin\Debug\AppUtilities.dll.config
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\AppUtilities\bin\Debug\AppUtilities.xml
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\AppUtilities\bin\Debug\AppUtilities.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\AppUtilities\bin\Debug\AppUtilities.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\AppUtilities\obj\Debug\AppUtilities.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\AppUtilities\obj\Debug\AppUtilities.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppUtilities\AppUtilities\obj\Debug\AppUtilities.csprojResolveAssemblyReference.cache
+C:\Users\Windows\Meu Drive\Fatec\+DISCIPLINAS\+ARQUIVOS PARA AULAS WEB\LIB\Source\AppUtilities 4.0\bin\Debug\AppUtilities.dll.config
+C:\Users\Windows\Meu Drive\Fatec\+DISCIPLINAS\+ARQUIVOS PARA AULAS WEB\LIB\Source\AppUtilities 4.0\bin\Debug\AppUtilities.xml
+C:\Users\Windows\Meu Drive\Fatec\+DISCIPLINAS\+ARQUIVOS PARA AULAS WEB\LIB\Source\AppUtilities 4.0\bin\Debug\AppUtilities.dll
+C:\Users\Windows\Meu Drive\Fatec\+DISCIPLINAS\+ARQUIVOS PARA AULAS WEB\LIB\Source\AppUtilities 4.0\bin\Debug\AppUtilities.pdb
+C:\Users\Windows\Meu Drive\Fatec\+DISCIPLINAS\+ARQUIVOS PARA AULAS WEB\LIB\Source\AppUtilities 4.0\obj\Debug\AppUtilities.csproj.AssemblyReference.cache
+C:\Users\Windows\Meu Drive\Fatec\+DISCIPLINAS\+ARQUIVOS PARA AULAS WEB\LIB\Source\AppUtilities 4.0\obj\Debug\AppUtilities.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Meu Drive\Fatec\+DISCIPLINAS\+ARQUIVOS PARA AULAS WEB\LIB\Source\AppUtilities 4.0\obj\Debug\AppUtilities.dll
+C:\Users\Windows\Meu Drive\Fatec\+DISCIPLINAS\+ARQUIVOS PARA AULAS WEB\LIB\Source\AppUtilities 4.0\obj\Debug\AppUtilities.pdb

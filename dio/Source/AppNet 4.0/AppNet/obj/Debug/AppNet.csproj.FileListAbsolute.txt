@@ -1,0 +1,21 @@
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\xx\AppNet\AppNet\bin\Debug\AppNet.dll
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\xx\AppNet\AppNet\bin\Debug\AppNet.pdb
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\xx\AppNet\AppNet\obj\Debug\AppNet.dll
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\xx\AppNet\AppNet\obj\Debug\AppNet.pdb
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppNet\AppNet\AppNet\bin\Debug\AppNet.dll
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppNet\AppNet\AppNet\bin\Debug\AppNet.pdb
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppNet\AppNet\AppNet\obj\Debug\AppNet.dll
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppNet\AppNet\AppNet\obj\Debug\AppNet.pdb
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppNet\AppNet\AppNet\bin\Debug\AppNet.XML
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppNet\AppNet\AppNet\bin\Debug\AppNet.XML
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppNet\AppNet\AppNet\bin\Debug\AppNet.dll
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppNet\AppNet\AppNet\bin\Debug\AppNet.pdb
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppNet\AppNet\AppNet\obj\Debug\AppNet.dll
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppNet\AppNet\AppNet\obj\Debug\AppNet.pdb
+C:\Users\Diogenes\Google Drive\Fatec\Lib\4.0\AppNet\AppNet\AppNet\obj\Debug\AppNet.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppNet\AppNet\AppNet\bin\Debug\AppNet.XML
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppNet\AppNet\AppNet\bin\Debug\AppNet.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppNet\AppNet\AppNet\bin\Debug\AppNet.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppNet\AppNet\AppNet\obj\Debug\AppNet.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppNet\AppNet\AppNet\obj\Debug\AppNet.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppNet\AppNet\AppNet\obj\Debug\AppNet.csprojResolveAssemblyReference.cache

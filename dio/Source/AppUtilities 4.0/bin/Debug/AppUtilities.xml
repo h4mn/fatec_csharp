@@ -1,0 +1,1333 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppUtilities</name>
+    </assembly>
+    <members>
+        <member name="T:AppUtilities.DataHora">
+            <summary>
+            Classe para tratar de data e hora
+            </summary>
+        </member>
+        <member name="M:AppUtilities.DataHora.isDate(System.String)">
+            <summary>
+            Verifica se um valor pode ser convertido em uma data
+            </summary>
+            <param name="value">string com o valor</param>
+            <returns></returns>
+        </member>
+        <member name="M:AppUtilities.DataHora.isDate(System.String,System.String)">
+            <summary>
+            Retorna verdadeiro se for possível converter o valor informado no formato espeficidado.
+            </summary>
+            <param name="value">valor para converter em data</param>
+            <param name="format">formato para conversão</param>
+            <returns></returns>
+        </member>
+        <member name="T:AppUtilities.Correios.Exception">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.Exception.message">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.objetoTO">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoTO.desc">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoTO.entrega">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoTO.id">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoTO.item">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoTO.num">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.pessoaTO">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.bairro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.cep">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.cidade">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.complemento">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.ddd">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.email">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.logradouro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.nome">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.numero">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.referencia">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.telefone">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoaTO.uf">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.remetenteTO">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.remetenteTO.identificacao">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.produtoTO">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.produtoTO.codigo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.produtoTO.codigoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.produtoTO.qtd">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.produtoTO.qtdSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.produtoTO.tipo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.produtoTO.tipoSpecified">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.coletaTO">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaTO.cklist">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaTO.descricao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaTO.id_cliente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaTO.produto">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaTO.remetente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaTO.tipo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaTO.valor_declarado">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.coletaSimultaneaTO">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaSimultaneaTO.obj">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaSimultaneaTO.obs">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.coletaReversaTO">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaReversaTO.ag">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaReversaTO.ar">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaReversaTO.arSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaReversaTO.cartao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaReversaTO.cartaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaReversaTO.numero">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaReversaTO.numeroSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaReversaTO.obj_col">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.coletaReversaTO.servico_adicional">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.mensagemRetornoPIMaster">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.mensagemRetornoPIMaster.codigo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.mensagemRetornoPIMaster.codigoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.mensagemRetornoPIMaster.mensagem">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.preListaPostagem">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.cartaoPostagem">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.dataAtualizacaoCliente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.dataAtualizacaoClienteSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.dataAtualizacaoSara">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.dataAtualizacaoSaraSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.dataFechamento">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.dataFechamentoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.dataPostagem">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.dataPostagemSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.dataPostagemSara">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.dataPostagemSaraSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.objetosPostais">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.plpCliente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.plpNu">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.plpXml">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.plpXmlRetorno">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.status">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.preListaPostagem.statusSpecified">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.cartaoPostagemERP">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.codigoAdministrativo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.contratos">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.dataVigenciaFim">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.dataVigenciaFimSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.dataVigenciaInicio">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.dataVigenciaInicioSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.datajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.datajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.datajVigenciaFim">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.datajVigenciaFimSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.datajVigenciaInicio">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.datajVigenciaInicioSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.descricaoStatusCartao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.descricaoUnidadePostagemGenerica">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.horajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.horajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.numero">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.servicos">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.statusCartaoPostagem">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.statusCodigo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.unidadeGenerica">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cartaoPostagemERP.unidadesPostagem">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.contratoERP">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.cartoesPostagem">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.cliente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.codigoCliente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.codigoDiretoria">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.contratoPK">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.dataAtualizacaoDDMMYYYY">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.dataVigenciaFim">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.dataVigenciaFimSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.dataVigenciaFimDDMMYYYY">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.dataVigenciaInicio">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.dataVigenciaInicioSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.dataVigenciaInicioDDMMYYYY">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.datajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.datajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.datajVigenciaFim">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.datajVigenciaFimSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.datajVigenciaInicio">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.datajVigenciaInicioSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.descricaoDiretoriaRegional">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.descricaoStatus">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.diretoriaRegional">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.horajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.horajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERP.statusCodigo">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.clienteERP">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.cnpj">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.contratos">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.datajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.datajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.descricaoStatusCliente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.gerenteConta">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.horajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.horajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.id">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.inscricaoEstadual">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.nome">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.clienteERP.statusCodigo">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.gerenteConta">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.clientesVisiveis">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.dataInclusao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.dataInclusaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.dataSenha">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.dataSenhaSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.login">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.matricula">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.senha">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.status">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.statusSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.tipoGerente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.tipoGerenteSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.usuariosInstalacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.gerenteConta.validade">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.statusGerente">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusGerente.Ativo">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusGerente.Inativo">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.tipoGerente">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.tipoGerente.GerenteConta">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.tipoGerente.GerenteContaMaster">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.usuarioInstalacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.dataInclusao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.dataInclusaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.dataSenha">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.dataSenhaSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.gerenteMaster">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.hashSenha">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.id">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.idSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.login">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.nome">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.parametros">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.senha">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.status">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.statusSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.usuarioInstalacao.validade">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.parametroMaster">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.parametroMaster.prmCoParametro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.parametroMaster.prmTxParametro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.parametroMaster.prmTxValor">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.statusUsuario">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusUsuario.Ativo">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusUsuario.Inativo">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.contratoERPPK">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERPPK.diretoria">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.contratoERPPK.numero">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.unidadePostagemERP">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.unidadePostagemERP.diretoriaRegional">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.unidadePostagemERP.endereco">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.unidadePostagemERP.id">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.unidadePostagemERP.nome">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.unidadePostagemERP.status">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.unidadePostagemERP.tipo">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.enderecoERP">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.enderecoERP.bairro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.enderecoERP.cep">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.enderecoERP.cidade">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.enderecoERP.complemento">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.enderecoERP.complemento2">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.enderecoERP.end">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.enderecoERP.id">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.enderecoERP.uf">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.enderecoERP.unidadesPostagem">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.servicoERP">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.codigo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.datajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.datajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.descricao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.horajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.horajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.id">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.servicoSigep">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.servicosAdicionais">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.tipo1Codigo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.tipo1Descricao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.tipo2Codigo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.tipo2Descricao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoERP.vigencia">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.servicoSigep">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoSigep.categoriaServico">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoSigep.categoriaServicoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoSigep.chancela">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoSigep.exigeDimensoes">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoSigep.exigeDimensoesSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoSigep.exigeValorCobrar">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoSigep.exigeValorCobrarSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoSigep.imitm">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoSigep.servico">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoSigep.servicoERP">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoSigep.ssiCoCodigoPostal">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.categoriaServico">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.categoriaServico.SEM_CATEGORIA">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.categoriaServico.PAC">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.categoriaServico.SEDEX">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.categoriaServico.CARTA_REGISTRADA">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.categoriaServico.SERVICO_COM_RESTRICAO">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.categoriaServico.REVERSO">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.chancelaMaster">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.chancelaMaster.chancela">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.chancelaMaster.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.chancelaMaster.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.chancelaMaster.descricao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.chancelaMaster.id">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.chancelaMaster.servicosSigep">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.servicoAdicionalERP">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoAdicionalERP.codigo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoAdicionalERP.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoAdicionalERP.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoAdicionalERP.datajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoAdicionalERP.datajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoAdicionalERP.descricao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoAdicionalERP.horajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoAdicionalERP.horajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoAdicionalERP.id">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoAdicionalERP.idSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.servicoAdicionalERP.sigla">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.vigenciaERP">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.vigenciaERP.dataFinal">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.vigenciaERP.dataFinalSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.vigenciaERP.dataInicial">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.vigenciaERP.dataInicialSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.vigenciaERP.datajFim">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.vigenciaERP.datajFimSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.vigenciaERP.datajIni">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.vigenciaERP.datajIniSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.vigenciaERP.id">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.vigenciaERP.idSpecified">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.objetoPostal">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.codigoEtiqueta">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.dataAtualizacaoCliente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.dataAtualizacaoClienteSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.dataCancelamentoEtiqueta">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.dataCancelamentoEtiquetaSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.dataInclusao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.dataInclusaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.objetoPostalPK">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.plpNu">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.plpNuSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.preListaPostagem">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.statusEtiqueta">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostal.statusEtiquetaSpecified">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.objetoPostalPK">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostalPK.codigoEtiqueta">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoPostalPK.plpNu">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.statusObjetoPostal">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusObjetoPostal.EmBranco">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusObjetoPostal.Postado">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusObjetoPostal.Cancelado">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusObjetoPostal.Estorno">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.statusPlp">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusPlp.Aberta">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusPlp.Fechada">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusPlp.Postada">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.retorno">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.codigoPI">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.codigoPISpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.codigoRegistro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.codigoRetorno">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.dataPrazoResposta">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.dataRegistro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.dataResposta">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.dataUltimaRecorrencia">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.id">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.idSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.mensagemRetorno">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retorno.resposta">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.postagem">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.postagem.agencia">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.postagem.avisoRecebimento">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.postagem.data">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.postagem.local">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.postagem.valorDeclarado">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.pessoa">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoa.bairro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoa.cep">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoa.cidade">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoa.complemento">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoa.ddd">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoa.endereco">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoa.nome">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoa.numero">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoa.pais">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoa.telefone">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pessoa.uf">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.remetente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.remetente.email">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.remetente.empresa">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.remetente.fax">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.destinatario">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.conta">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.conta.codigoBanco">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.conta.nomeBanco">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.conta.numeroAgencia">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.conta.numeroConta">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.cliente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cliente.numeroContrato">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.cliente.possuiContrato">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.pedidoInformacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacao.id">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacao.idSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacao.usuario">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.pedidoInformacaoConsulta">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoConsulta.numero">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoConsulta.numeroSpecified">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.pedidoInformacaoRegistro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.cliente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.codigoRegistro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.conta">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.conteudoObjeto">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.cpfCnpj">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.destinatario">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.embalagem">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.motivo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.motivoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.observacao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.postagem">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.remetente">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.servico">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.servicoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.pedidoInformacaoRegistro.tipoDocumento">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.SQLException">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.SQLException.errorCode">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.SQLException.errorCodeSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.SQLException.sQLState">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.SQLException.message">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.tipoBloqueio">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.tipoBloqueio.FRAUDE_BLOQUEIO">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.tipoBloqueio.EXTRAVIO_VAREJO_PRE_INDENIZADO">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.tipoBloqueio.EXTRAVIO_VAREJO_POS_INDENIZADO">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.tipoBloqueio.EXTRAVIO_CORPORATIVO">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.tipoBloqueio.INTERNACIONAL_LDI">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.acao">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.acao.DEVOLVIDO_AO_REMETENTE">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.acao.ENCAMINHADO_PARA_REFUGO">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.acao.REINTEGRADO_E_DEVOLVIDO_AO_REMETENTE">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.acao.DESBLOQUEADO">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.embalagemLRSMaster">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.embalagemLRSMaster.codigo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.embalagemLRSMaster.nome">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.embalagemLRSMaster.tipo">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.retornoCancelamentoTO">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retornoCancelamentoTO.cod_erro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retornoCancelamentoTO.codigo_administrativo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retornoCancelamentoTO.data">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retornoCancelamentoTO.hora">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retornoCancelamentoTO.msg_erro">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.retornoCancelamentoTO.objeto_postal">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.objetoSimplificadoTO">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoSimplificadoTO.datahora_cancelamento">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoSimplificadoTO.numero_pedido">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoSimplificadoTO.numero_pedidoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.objetoSimplificadoTO.status_pedido">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.statusCartao">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusCartao.Desconhecido">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusCartao.Normal">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusCartao.Suspenso">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusCartao.Cancelado">
+            <remarks/>
+        </member>
+        <member name="F:AppUtilities.Correios.statusCartao.Irregular">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.motivoPIMaster">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.motivoPIMaster.codigo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.motivoPIMaster.codigoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.motivoPIMaster.descricao">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Correios.assuntoPIMaster">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.assuntoPIMaster.codigo">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.assuntoPIMaster.codigoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.assuntoPIMaster.descricao">
+            <remarks/>
+        </member>
+        <member name="P:AppUtilities.Correios.assuntoPIMaster.tipo">
+            <remarks/>
+        </member>
+        <member name="T:AppUtilities.Util">
+            <summary>
+            Esta Classe contém métodos utilitários  
+            </summary>
+        </member>
+        <member name="P:AppUtilities.Util.NewLine">
+            <summary>
+            Obtem a string de mudança de linha em função da plataforma.
+            "\r\n" (\u000D\u000A) para Windows
+            "\n" (\u000A) para Linux
+            </summary>
+        </member>
+        <member name="M:AppUtilities.Util.GetCEP(System.String)">
+            <summary>
+            Obtem o endereço completo a partir do CEP informado
+            </summary>
+            <param name="cep">numero do cep</param>
+            <returns>Retorna a estrutura CEP com os dados do endereço</returns>
+        </member>
+        <member name="T:AppUtilities.Util.CEP">
+            <summary>
+            Dados obtidos a partir do CEP informado
+            </summary>
+        </member>
+        <member name="F:AppUtilities.Util.CEP.Falha">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AppUtilities.Util.CEP.Endereco">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AppUtilities.Util.CEP.Complemento">
+            <summary>
+            
+            
+            </summary>
+        </member>
+        <member name="F:AppUtilities.Util.CEP.Complemento2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AppUtilities.Util.CEP.Bairro">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AppUtilities.Util.CEP.Cidade">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AppUtilities.Util.CEP.Estado">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

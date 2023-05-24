@@ -1,0 +1,65 @@
+C:\Users\Diogenes\Developer\Fatec\Win\bibliotecas\AppDatabase\AppDatabase\AppDatabase\bin\Debug\AppDatabase.dll
+C:\Users\Diogenes\Developer\Fatec\Win\bibliotecas\AppDatabase\AppDatabase\AppDatabase\bin\Debug\AppDatabase.pdb
+C:\Users\Diogenes\Developer\Fatec\Win\bibliotecas\AppDatabase\AppDatabase\AppDatabase\obj\Debug\AppDatabase.dll
+C:\Users\Diogenes\Developer\Fatec\Win\bibliotecas\AppDatabase\AppDatabase\AppDatabase\obj\Debug\AppDatabase.pdb
+C:\Users\Diogenes\Developer\Fatec\Win\bibliotecas\AppDatabase\AppDatabase\AppDatabase\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Diogenes\Developer\Fatec\Win\bibliotecas\AppDatabase\AppDatabase\AppDatabase\obj\Debug\AppDatabase.csprojResolveAssemblyReference.cache
+C:\Users\Diogenes\Developer\Fatec\Lib\AppDatabase\AppDatabase\bin\Debug\AppDatabase.dll
+C:\Users\Diogenes\Developer\Fatec\Lib\AppDatabase\AppDatabase\bin\Debug\AppDatabase.pdb
+C:\Users\Diogenes\Developer\Fatec\Lib\AppDatabase\AppDatabase\obj\Debug\AppDatabase.csprojResolveAssemblyReference.cache
+C:\Users\Diogenes\Developer\Fatec\Lib\AppDatabase\AppDatabase\obj\Debug\AppDatabase.dll
+C:\Users\Diogenes\Developer\Fatec\Lib\AppDatabase\AppDatabase\obj\Debug\AppDatabase.pdb
+C:\Users\Diogenes\Developer\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.dll
+C:\Users\Diogenes\Developer\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.pdb
+C:\Users\Diogenes\Developer\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.dll
+C:\Users\Diogenes\Developer\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.pdb
+C:\Users\diogenes\Desktop\Developer\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.dll
+C:\Users\diogenes\Desktop\Developer\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.pdb
+C:\Users\diogenes\Desktop\Developer\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.csprojResolveAssemblyReference.cache
+C:\Users\diogenes\Desktop\Developer\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.dll
+C:\Users\diogenes\Desktop\Developer\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.pdb
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.dll
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.pdb
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.dll
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.pdb
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.XML
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\MySql.Data.dll
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.XML
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.dll
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.pdb
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\MySql.Data.dll
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.dll
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.pdb
+C:\Users\Diogenes\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.csprojResolveAssemblyReference.cache
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.XML
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.dll
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.pdb
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\MySql.Data.dll
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.dll
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.pdb
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.XML
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppDatabase\AppDatabase\bin\Debug\AppDatabase.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppDatabase\AppDatabase\obj\Debug\AppDatabase.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\obj\Debug\AppDatabase.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\obj\Debug\AppDatabase.dll
+C:\Users\Usuario\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\obj\Debug\AppDatabase.pdb
+C:\Users\Usuario\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\bin\Debug\AppDatabase.XML
+C:\Users\Usuario\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\bin\Debug\AppDatabase.dll
+C:\Users\Usuario\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\bin\Debug\AppDatabase.pdb
+C:\Users\Usuario\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Usuario\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\bin\Debug\MySql.Data.dll
+C:\Users\Usuario\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\obj\Debug\AppDatabase.csproj.CopyComplete
+C:\Users\dioli\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\bin\Debug\AppDatabase.XML
+C:\Users\dioli\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\bin\Debug\AppDatabase.dll
+C:\Users\dioli\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\bin\Debug\AppDatabase.pdb
+C:\Users\dioli\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\dioli\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\bin\Debug\MySql.Data.dll
+C:\Users\dioli\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\obj\Debug\AppDatabase.csprojAssemblyReference.cache
+C:\Users\dioli\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\obj\Debug\AppDatabase.csproj.CoreCompileInputs.cache
+C:\Users\dioli\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\obj\Debug\AppDatabase.csproj.CopyComplete
+C:\Users\dioli\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\obj\Debug\AppDatabase.dll
+C:\Users\dioli\Google Drive\Fatec\+DISCIPLINAS\ADS\C#\Material de Aulas\Aula Base\LIB\Source\AppDatabase 4.0\AppDatabase\obj\Debug\AppDatabase.pdb

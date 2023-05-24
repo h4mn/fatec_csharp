@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppDatabase</name>
+    </assembly>
+    <members>
+        <member name="T:AppDatabase.Utilities">
+            <summary>
+            Contém métodos utilitários de banco de dados
+            </summary>
+        </member>
+        <member name="M:AppDatabase.Utilities.Filter(System.String)">
+            <summary>
+            Método para filtrar caracteres/comandos indesejados em expressões sql.
+            </summary>
+            <param name="exp"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AppDatabase.OleDBTransaction">
+            <summary>
+            Transações no provedor de dados OLEDb (Access, Excel, Word)
+            </summary>
+        </member>
+        <member name="P:AppDatabase.OleDBTransaction.ConnectionString">
+            <summary>
+            String de conexão com o banco de Dados.
+            Deve ser informada antes da execução do método Query.
+            http://www.connectionstrings.com
+            </summary>
+        </member>
+        <member name="P:AppDatabase.OleDBTransaction.ExceptionDB">
+            <summary>
+            Obtem os dados da exceção ocorrida durante a execução do comando.  
+            </summary>
+        </member>
+        <member name="M:AppDatabase.OleDBTransaction.Query(System.String)">
+            <summary>
+            Este método executa uma transação SQL no Banco de Dados OleDb ACCESS/EXCEL.
+            Retorna um objeto "DataTable" se a consulta tiver um comando "SELECT" ou retorna o número de registros afetados se a consulta tiver "INSERT,UPDATE ou DELETE"
+            </summary>
+            <param name="querySql">String com o comando SQL. "Select, Insert, Update ou Delete"</param>
+        </member>
+        <member name="M:AppDatabase.OleDBTransaction.InsertUpdate(System.String,System.Object,System.String)">
+            <summary>
+            Método para inserir ou editar um registro de uma tabela do banco de dados.\r\n
+            se a chave primária informada existir, o registro será atualizado.\r\n 
+            se a chave primária não existir o registro será adicionado.
+            </summary>
+            <param name="tableName">Nome da tabela do banco de dados</param>
+            <param name="model">Model da tabela (atributos e valores)</param>
+            <param name="Keys">Chave(s) primaria</param>
+            <returns></returns>
+        </member>
+        <member name="T:AppDatabase.FireBirdTransaction">
+            <summary>
+            Transações no provedor de dados FireBird 2.5
+            </summary>   /// 
+        </member>
+        <member name="P:AppDatabase.FireBirdTransaction.ConnectionString">
+            <summary>
+            String de conexão com o banco de Dados.
+            Deve ser informada antes da execução do método Query.
+            </summary>
+        </member>
+        <member name="P:AppDatabase.FireBirdTransaction.ExceptionDB">
+            <summary>
+            Obtem os dados da exceção ocorrida durante a execução do comando.  
+            </summary>
+        </member>
+        <member name="M:AppDatabase.FireBirdTransaction.Query(System.String)">
+            <summary>
+            Este método executa uma transação SQL no Banco de Dados FireBird.
+            Retorna um objeto "DataTable" se a consulta tem um comando "Select" ou o número de registros afetados se a consulta tem um "Insert,Update ou Delete"
+            </summary>
+            <param name="querySql">String com o comando SQL. "Select, Insert, Update ou Delete" </param>
+        </member>
+        <member name="M:AppDatabase.FireBirdTransaction.Select(System.String)">
+            <summary>
+            Executa um comando SELECT no database.
+            Retorna um DataTable com o resultado da consulta.
+            </summary>
+            <param name="querySql">String com a query sql</param>
+            <returns></returns>
+        </member>
+        <member name="M:AppDatabase.FireBirdTransaction.Cmd(System.String)">
+            <summary>
+            Executa um comando INSERT, UPDATE ou DELETE no banco de dados.
+            Retorna um Int32 contendo o número de registros afetados pelo comando.
+            </summary>
+            <param name="querySql">string com a Query Sql</param>
+            <returns></returns>
+        </member>
+        <member name="T:AppDatabase.MySqlTransaction">
+            <summary>
+            Transação no provedor de dados MySql
+            </summary>
+        </member>
+        <member name="P:AppDatabase.MySqlTransaction.ConnectionString">
+            <summary>
+            String de conexão com o banco de Dados.
+            Deve ser informada antes da execução do método Query.
+            </summary>
+        </member>
+        <member name="P:AppDatabase.MySqlTransaction.ExceptionDB">
+            <summary>
+            Obtem os dados da exceção ocorrida durante a execução do comando.  
+            </summary>
+        </member>
+        <member name="M:AppDatabase.MySqlTransaction.Query(System.String)">
+            <summary>
+            Este método executa uma transação SQL no Banco de Dados FireBird.
+            Retorna um objeto "DataTable" se a consulta tem um comando "Select" ou o número de registros afetados se a consulta tem um "Insert,Update ou Delete"
+            </summary>
+            <param name="querySql">String com o comando SQL. "Select, Insert, Update ou Delete" </param>
+        </member>
+        <member name="M:AppDatabase.MySqlTransaction.Select(System.String)">
+            <summary>
+            Executa um comando SELECT no database.
+            Retorna um DataTable com o resultado da consulta.
+            </summary>
+            <param name="querySql">String com a query sql</param>
+            <returns></returns>
+        </member>
+        <member name="M:AppDatabase.MySqlTransaction.Cmd(System.String)">
+            <summary>
+            Executa um comando INSERT, UPDATE ou DELETE no banco de dados.
+            Retorna um Int32 contendo o número de registros afetados pelo comando.
+            </summary>
+            <param name="querySql">string com a Query Sql</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,6 @@
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\Fatec\Fatec\bin\Debug\Fatec.XML
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\Fatec\Fatec\bin\Debug\Fatec.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\Fatec\Fatec\bin\Debug\Fatec.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\Fatec\Fatec\obj\Debug\Fatec.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\Fatec\Fatec\obj\Debug\Fatec.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\Fatec\Fatec\obj\Debug\Fatec.csprojResolveAssemblyReference.cache

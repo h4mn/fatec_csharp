@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fatec</name>
+    </assembly>
+    <members>
+        <member name="T:Fatec.DataHora">
+            <summary>
+            Classe para tratar de data e hora
+            </summary>
+        </member>
+        <member name="M:Fatec.DataHora.isDate(System.String)">
+            <summary>
+            Verifica se um valor pode ser convertido em data
+            </summary>
+            <param name="value">string com o valor</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fatec.DataHora.isDate(System.String,System.String)">
+            <summary>
+            Retorna verdadeiro se for possível converter o valor informado no formato espeficidado.
+            </summary>
+            <param name="value">valor para converter em data</param>
+            <param name="format">formato para convedrsão</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

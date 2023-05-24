@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppNet</name>
+    </assembly>
+    <members>
+        <member name="T:AppNet.Mail">
+            <summary>
+            Classe para enviar email
+            </summary>
+        </member>
+        <member name="P:AppNet.Mail.Host">
+            <summary>
+            Obtem ou Define o servidor de e-mail
+            </summary>
+        </member>
+        <member name="P:AppNet.Mail.Port">
+            <summary>
+            Obtem ou define a porta do servidor SMTP
+            </summary>
+        </member>
+        <member name="P:AppNet.Mail.User">
+            <summary>
+            Obtem ou define o usuário para autenticação no servidor SMTP
+            </summary>
+        </member>
+        <member name="P:AppNet.Mail.Pass">
+            <summary>
+            Obtem ou define o senha de autenticação no servidor SMPT
+            </summary>
+        </member>
+        <member name="P:AppNet.Mail.Exception">
+            <summary>
+            Obtem a Exceção ocorrida no envio do email
+            </summary>
+        </member>
+        <member name="P:AppNet.Mail.EnabledSsl">
+            <summary>
+            Habilita a conexão segura com o servidor SMTP.
+            </summary>
+        </member>
+        <member name="M:AppNet.Mail.Send(System.String,System.String,System.String,System.String)">
+            <summary>
+            Métoto para enviar o e-mail
+            Se houver uma exceção no processo de envio, recupere os dados a partir da propriedade Exception.
+            </summary>
+            <param name="mailTo">conta de e-mail que receberá o email</param>
+            <param name="mailFrom">conta e-mail utilizada para enviar o e-mail</param>
+            <param name="mailSubject">Titulo do e-mail</param>
+            <param name="mailBody">Corpo do e-mail</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

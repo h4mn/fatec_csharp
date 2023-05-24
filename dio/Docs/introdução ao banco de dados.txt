@@ -1,0 +1,125 @@
+INTRODUÇÃO AO BANCO DE DADOS
+
+Bancos de dados
+----------------
+MySql
+Oracle
+Sql Server
+Access
+
+
+SGBD (Sistema Gerenciador de Banco de Dados)
+
+
+LINGUAGEM SQL: 
+--------------
+Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL,
+é a linguagem de pesquisa declarativa padrão para banco de dados relacional
+Surgido em: 1974
+
+
+INSERT INTO Usuarios(Codigo, NomeCompleto, Email, NomeAcesso, Senha) VALUES(123,'Joao Silva','joao@ddd.com','Joao' '12345');
+
+UPDATE Usuarios SET(NomeCompleto='José da Silva',Email='sdfsdf@sdff.com') WHERE Codigo=123 ;
+
+DELETE FROM Usuarios WHERE Codigo=123;
+
+SELECT * FROM Usuarios WHERE Codigo=123;
+
+SELECT NomeCompleto, Email, Telefone FROM Usuarios WHERE Codigo=123;
+
+SELECT NomeCompleto, Email FROM Usuarios WHERE NomeCompleto LIKE '%m%' ;
+
+
+
+COMO CONECTAR A APLICAÇÃO AO BANCO DE DADOS E ENVIAR COMANDOS
+-------------------------------------------------------------
+PASSOS
+
+1. Estabelecer um conexão com o banco de dados "string de conexão"
+   http://connectionstrings.com
+
+	MySQL = string de conexão
+        Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+
+	ACCESS = string de conexão
+        Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\myFolder\myAccessFile.accdb;Persist Security Info=False;
+
+2. enviar o comando SQL
+
+string comando = "SELECT * FROM Usuarios WHERE Codigo=123;"
+
+ESTRUTURA TABELA DE USUARIOS
+----------------------------
+NOME DO ATRIBUTO	TIPO			TAMANHO
+Codigo		     	Numeração Automática
+NomeCompleto		Texto curto		255 	
+Email			Texto curto		255			
+NomeAcesso		Texto curto		255
+Senha			Texto curto		255	
+
+
+
+ESTRUTURA TRABALHE CONOSCO
+--------------------------
+NomeCompleto
+Email
+Telefone
+Sexo
+DataNascimento
+Cidade
+Descricao
+Interesse
+EnderecoArquivo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TABELA USUARIOS
+---------------
+Codigo	NomeCompleto	Email		NomeAcesso	Senha
+123	João da Silva	Joao@ddd.com	Joao		12345
+124	João de Almeida	Joaoa@ddd.com	Joaoa		j12345
+
+
+================================================================
+
+ESTRUTURA DA TABELA USUARIOS
+------------------------------
+Codigo		Numereção Automática (chave primaria incrementada automaticamente)
+NomeCompleto	texto  255
+Email		texto  255
+NomeAcesso	texto  100
+Senha		texto  50
+Anotacoes	texto  255
+------------------------------
+
+1. crie a tabela
+
+2. crie o form "front-end" de cadastro
+3. no "back-end" escreva o código C# para inserir o registro 
+
+
+
+
+
+
+
+
+

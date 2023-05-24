@@ -1,0 +1,23 @@
+PROTOCOLO PARA CRIAÇÃO DE TABELA NO BANCO DE DADOS
+
+
+NOMENCLATURA DE TABELA:
+
+CamelCase é a denominação em inglês para a prática de escrever as palavras compostas ou frases, onde cada palavra é iniciada com maiúsculas e unidas sem espaços.
+
+* Não use espaço;
+* Não use acentos nem underline;
+* Nome no plural;
+
+Ex: Usuarios, Clientes, ClientesCategorias
+
+
+NOMENCLATURA DOS ATRIBUTOS:
+
+* Utilizar na nomenclatura dos atributos da tabela as mesmas regra CamelCase.
+* O atributo chave primária deve ser formado pelo nome da tabela no singular acrescido de ID.
+
+ex: UsuarioID, ClienteID, ClienteCategoriaID
+
+ 
+

@@ -1,0 +1,19 @@
+﻿
+AJAX Control Toolkit
+
+
+Open Source Library for Web Development
+https://www.devexpress.com/Products/AJAX-Control-Toolkit/?utm_source=Web&utm_medium=SiteShortcut&utm_campaign=AjaxControlToolkit&utm_content=AjaxControlToolkit_Web_SiteShortcut
+
+
+
+
+AJAX CONTROL TOOLKIT DEMO 
+http://ajaxcontroltoolkit.devexpress.com/DynamicPopulate/DynamicPopulate.aspx
+
+
+
+
+INSTALL VISUAL STUDIO Ajax Control Toolkit 15.1.4
+https://www.nuget.org/packages/AjaxControlToolkit/15.1.4
+

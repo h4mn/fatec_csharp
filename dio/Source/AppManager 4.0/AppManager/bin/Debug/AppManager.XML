@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppManager</name>
+    </assembly>
+    <members>
+        <member name="M:AppManager.Email.Send(System.String,System.String,System.String,System.String)">
+            <summary>
+            Envia um e-mail para a conta definida no parâmetro "to"
+            </summary>
+            <param name="from">Conta que esta enviando o email, deve ser a mesma usada na autenticação do server smtp</param>
+            <param name="to">Conta que recebe o email</param>
+            <param name="subject">Titulo do email</param>
+            <param name="body">Texto do corpo do email</param>
+        </member>
+        <member name="T:AppManager.AppExceptionsTxt">
+            <summary>
+            Recupera os dados de uma exceção da aplicação.
+            </summary>
+        </member>
+        <member name="P:AppManager.AppExceptionsTxt.PathSaveFile">
+            <summary>
+            Obtem ou define o caminho completo do arquivo de registro das exceções.
+            </summary>
+        </member>
+        <member name="P:AppManager.AppExceptionsTxt.FileName">
+            <summary>
+            Obtem ou define o nome e extensão do arquivo txt para salvar as exceções.
+            </summary>
+        </member>
+        <member name="P:AppManager.AppExceptionsTxt.Host">
+            <summary>
+            Obtem ou define o provedor smtp para enviar o email
+            </summary>
+        </member>
+        <member name="P:AppManager.AppExceptionsTxt.EmailFrom">
+            <summary>
+            Obtem ou define o email para enviar a mensagem
+            </summary>
+        </member>
+        <member name="P:AppManager.AppExceptionsTxt.EmailUser">
+            <summary>
+            Obtem ou define o nome de usuário para autenticação no servidor smtp
+            </summary>
+        </member>
+        <member name="P:AppManager.AppExceptionsTxt.EmailPassword">
+            <summary>
+            Obtem ou define a senha do usuário para autenticação no servidor smtp
+            </summary>
+        </member>
+        <member name="P:AppManager.AppExceptionsTxt.EmailTo">
+            <summary>
+            Obtem ou define o email para enviar a mensagem
+            </summary>
+        </member>
+        <member name="M:AppManager.AppExceptionsTxt.SaveException(System.Exception)">
+            <summary>
+             Salva uma exceção no arquivo de log exception.txt.
+            </summary>
+            <param name="ex">Dados da exceção do tipo exception.</param>
+        </member>
+        <member name="M:AppManager.AppExceptionsTxt.LoadException">
+            <summary>
+            Obtem todas as exceções do arquivo de exceptions.txt
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AppManager.AppExceptionsTxt.ClearException">
+            <summary>
+            Limpa o conteúdo do arquivo de exceções.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AppManager.AppExceptionsTxt.EnviaExcecao(System.String)">
+            <summary>
+            Enviar os dados da exceção para o administrador do sistema
+            </summary>
+            <param name="excecao">dados da exceção</param>
+            <returns></returns>
+        </member>
+        <member name="T:AppManager.AppExceptionXml">
+            <summary>
+            Recupera os dados de uma exceção da aplicação.
+            </summary>
+        </member>
+        <member name="P:AppManager.AppExceptionXml.PathFullFile">
+            <summary>
+             Caminho do arquivo LogExceptions.xml
+            </summary>
+        </member>
+        <member name="M:AppManager.AppExceptionXml.SaveException(System.Exception)">
+            <summary>
+            Salva uma exceção no arquivo de log exception.xml.
+            </summary>
+            <param name="ex">Dados da exceção do tipo exception. </param>
+        </member>
+        <member name="M:AppManager.AppExceptionXml.LoadException">
+            <summary>
+            Retorna o arquivo de log de exceções em um DataTable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AppManager.AppExceptionXml.ClearException">
+            <summary>
+            Limpa o arquivo de log das exceções
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AppManager.AppExceptionXml.Create(System.Boolean)">
+            <summary>
+             Cria o arquivo XML das exceções LogExceptions.xml
+            </summary>
+            <param name="subscribe">Determina se o arquivo sera "true" ou não "false" subscrito se existir.Default: false.</param>
+            <returns>Retorna True ou False</returns>
+        </member>
+        <member name="M:AppManager.AppExceptionXml.AddRow(System.String)">
+            <summary>
+            Adiciona uma nova exceção "linha" na tabela de exceções. 
+            </summary>
+            <param name="key">Código da linha</param>
+        </member>
+        <member name="M:AppManager.AppExceptionXml.AddColumn(System.String,System.String,System.String)">
+            <summary>
+            Adiciona uma nova coluna na linha da exceção definida pela chave "key"
+            </summary>
+            <param name="key">Código da linha  </param>
+            <param name="name">Nome da coluna          </param>
+            <param name="value">Valor da coluna                </param>
+            <returns></returns>
+        </member>
+        <member name="M:AppManager.AppExceptionXml.Delete">
+            <summary>
+            Elimina o arquivo de exceções
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

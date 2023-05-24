@@ -1,0 +1,40 @@
+C:\Users\Diogenes\Developer\Fatec\Win\bibliotecas\AppManager\AppManager\bin\Debug\AppManager.dll
+C:\Users\Diogenes\Developer\Fatec\Win\bibliotecas\AppManager\AppManager\bin\Debug\AppManager.pdb
+C:\Users\Diogenes\Developer\Fatec\Win\bibliotecas\AppManager\AppManager\obj\Debug\AppManager.dll
+C:\Users\Diogenes\Developer\Fatec\Win\bibliotecas\AppManager\AppManager\obj\Debug\AppManager.pdb
+C:\Users\Diogenes\Developer\Fatec\Win\bibliotecas\AppManager\AppManager\obj\Debug\AppManager.csprojResolveAssemblyReference.cache
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.dll
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.pdb
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\obj\Debug\AppManager.dll
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\obj\Debug\AppManager.pdb
+C:\Users\diogenes\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.XML
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.XML
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.dll
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.pdb
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\obj\Debug\AppManager.dll
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\obj\Debug\AppManager.pdb
+C:\Users\Usuario\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\obj\Debug\AppManager.csprojResolveAssemblyReference.cache
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.XML
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.dll
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.pdb
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\obj\Debug\AppManager.csprojResolveAssemblyReference.cache
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\obj\Debug\AppManager.dll
+C:\Users\dioli\Google Drive\Fatec\Lib\4.0\AppManager\AppManager\obj\Debug\AppManager.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.XML
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppManager\AppManager\bin\Debug\AppManager.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppManager\AppManager\obj\Debug\AppManager.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppManager\AppManager\obj\Debug\AppManager.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\C#\Material de Aulas\Lib\4.0\AppManager\AppManager\obj\Debug\AppManager.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\.NET 4.0\AppManager\AppManager\bin\Debug\AppManager.XML
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\.NET 4.0\AppManager\AppManager\bin\Debug\AppManager.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\.NET 4.0\AppManager\AppManager\bin\Debug\AppManager.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\.NET 4.0\AppManager\AppManager\obj\Debug\AppManager.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\.NET 4.0\AppManager\AppManager\obj\Debug\AppManager.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\.NET 4.0\AppManager\AppManager\obj\Debug\AppManager.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\Bin 4.0\AppManager\AppManager\bin\Debug\AppManager.XML
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\Bin 4.0\AppManager\AppManager\bin\Debug\AppManager.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\Bin 4.0\AppManager\AppManager\bin\Debug\AppManager.pdb
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\Bin 4.0\AppManager\AppManager\obj\Debug\AppManager.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\Bin 4.0\AppManager\AppManager\obj\Debug\AppManager.dll
+C:\Users\Usuario\Google Drive\Fatec\DISCIPLINAS\LIB\Bin 4.0\AppManager\AppManager\obj\Debug\AppManager.pdb

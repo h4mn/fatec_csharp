@@ -1,0 +1,16 @@
+
+ADICIONAR UMA CLASSE DE USO GERSAL NA PASTA APP_CODE
+1. CRIE A PASTA "APP_CODE";
+2. CRIE A CLASSE DE USO GERAL;
+3. SET EM PROPRIEDADES DA CLASSE A "AÇÃO DE COMPILASÇÃO DE: Conteúdo > Compilar";
+4. No Arquivo "Glogal.asax" no método "Application_Error" escreva o código correspondente;
+	 App_Code.RecoverExceptions rec = new App_Code.RecoverExceptions();
+         rec.SaveException(ex);
+
+5. INDICAR O ARQUIVO WEB.CONFIG O MODO QUE O SERVER DEVE TRATAR AS EXCEÇÕES.
+
+  <system.web>
+  	<!-- INDICA O MODO E O FORM PERSONALOZADO DE TRATAMENTO DE EXCEÇÕES -->
+	<customErrors defaultRedirect="~/Erro.aspx" mode="On" />
+   </system.web>
+
