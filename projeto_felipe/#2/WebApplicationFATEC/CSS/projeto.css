@@ -1,0 +1,78 @@
+﻿* {
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    
+}
+
+.cabecalho {
+    height: 81px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: relative;
+    background-color: #444444;
+}
+
+.logomarca {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    animation: rotate 8s infinite ease-in alternate-reverse ;
+}
+
+.barra-titulo {
+    position: absolute;
+    top: 0;
+    left: 81px;
+    right: 0;
+    height: 40px;
+}
+
+.barra-menu {
+    position: absolute;
+    top: 40px;
+    left: 81px;
+    right: 0;
+    height: 40px;
+}
+
+.barra-menu a {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+.barra-menu a:hover {
+    border-bottom: 3px solid #fc0404;
+}
+
+.conteudo {
+    min-height: 800px;
+}
+
+.rodape {
+    height: 400px;
+    background-color: #dbdbdb;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+        
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+

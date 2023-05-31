@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<FileZilla3 version="3.25.1" platform="windows">
+	<Layout Builddate="2017-03-20" Buildtime="16:46:19">
+		<Resources>
+			<xrc file="certificate.xrc" date="1490024848" />
+			<xrc file="dialogs.xrc" date="1490024848" />
+			<xrc file="inputdialog.xrc" date="1490024848" />
+			<xrc file="menus.xrc" date="1490024848" />
+			<xrc file="netconfwizard.xrc" date="1490024848" />
+			<xrc file="settings.xrc" date="1490024848" />
+			<xrc file="sitemanager.xrc" date="1490024848" />
+			<xrc file="update.xrc" date="1490024848" />
+		</Resources>
+		<Language id="pt_BR" date="1490024848">
+			<Font font="0;-12;0;0;0;400;0;0;0;1;0;0;0;0;Segoe UI" width="669" height="15" />
+			<Dialog name="Site Manager" width="646" />
+		</Language>
+	</Layout>
+</FileZilla3>

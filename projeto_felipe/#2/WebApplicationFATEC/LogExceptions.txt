@@ -1,0 +1,18 @@
+Data: 03/05/2023 08:44:11
+Mensagem: Falha ao enviar email.
+System.Net.Mail.SmtpException
+   em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   em WebApplicationFATEC.contato.Enviar_Click(Object sender, EventArgs e) na E:\#2\WebApplicationFATEC\contato.aspx.cs:linha 75
+-----------------------------------------------
+Data: 03/05/2023 09:19:57
+Mensagem: Falha ao enviar email.
+System.Net.Mail.SmtpException
+   em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   em WebApplicationFATEC.contato.Enviar_Click(Object sender, EventArgs e) na E:\#2\WebApplicationFATEC\contato.aspx.cs:linha 75
+-----------------------------------------------------------------
+Data: 03/05/2023 10:57:36
+Mensagem: Falha ao enviar email.
+System.Net.Mail.SmtpException
+   em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   em WebApplicationFATEC.contato.Enviar_Click(Object sender, EventArgs e) na E:\#2\WebApplicationFATEC\contato.aspx.cs:linha 76
+-----------------------------------------------------------------

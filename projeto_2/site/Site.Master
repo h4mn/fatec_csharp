@@ -55,7 +55,8 @@
                         <li><a runat="server" href="~/About">Sobre</a></li>
                         <li><a runat="server" href="~/Contact">Contato</a></li>
                         <li><a runat="server" href="~/ExceptionList">Exceções</a></li>
-                        <li><a runat="server" href="~/Login">Login</a></li>
+                        <li><a runat="server" href="~/Admin/CadastroUsuarios.aspx">Usuários</a></li>
+                        <li><a runat="server" href="~/Logout.aspx">Logout</a></li>
                     </ul>
                 </div>
             </div>

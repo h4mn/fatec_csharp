@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplicationFATEC.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>PAGINA MESTRA</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+    <!-- ADICIONAR ASSETS -->
+    <!-- ref= flexslider.woothemes.com -->
+    <link href="CSS/ProjetoD.css" rel="stylesheet" />
+    <link href="CSS/StyleSheet.css" rel="stylesheet" />
+    <link href="JAVASCRIPT/flexslider.css" rel="stylesheet" />
+    <script src="JAVASCRIPT/jquery-1.7.2.min.js"></script>
+    <script src="JAVASCRIPT/flexslider.min.js"></script>
+    
+</head>
+<body style="margin:15px">
+    <form id="form1" runat="server">
+
+        <!--cabeçalho-->
+        <div class="cabecalho">
+
+            <!--espaço da logomarca -->
+            <div class="logomarca">
+                <img src="/IMAGENS/logo80x80.png" />
+            </div>
+
+            <!-- barra do título -->
+            <div class="barra-titulo">
+
+            </div>
+
+            <!-- menu -->
+            <div class="barra-menu">
+                <a href="/default.aspx">HOME</a>
+                <a href="/sobre.aspx">SOBRE</a>
+                <a href="/contato.aspx">FALE CONOSCO</a>
+                <a href="/ExibirExcecoes.aspx">EXCEÇÕES</a>
+                <a href="/Admin/CadastroUsuarios.aspx">CADASTRO</a>
+                <asp:HyperLink ID="Usuarios" NavigateUrl="~/Admin/CadastroUsuarios.aspx" Visible="false" runat="server">Cadastro Usuarios</asp:HyperLink>
+                <asp:HyperLink ID="Sair" NavigateUrl="~/Logout.aspx.cs" Visible="false" runat="server">SAIR</asp:HyperLink>
+            </div>
+
+        </div>
+
+
+        <!-- conteudo -->
+        <div class="conteudo" style="margin:15px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> </asp:ContentPlaceHolder>
+        </div>
+
+
+        <!-- rodape -->
+        <div class="rodape">
+
+        </div>
+
+    </form>
+</body>
+</html>

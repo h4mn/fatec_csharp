@@ -1,0 +1,6 @@
+E:\#2\Ads2023\bin\Debug\Ads2023.dll
+E:\#2\Ads2023\bin\Debug\Ads2023.pdb
+E:\#2\Ads2023\obj\Debug\Ads2023.csproj.AssemblyReference.cache
+E:\#2\Ads2023\obj\Debug\Ads2023.csproj.CoreCompileInputs.cache
+E:\#2\Ads2023\obj\Debug\Ads2023.dll
+E:\#2\Ads2023\obj\Debug\Ads2023.pdb

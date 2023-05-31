@@ -1,0 +1,479 @@
+E:\C#\WebApplicationFATEC\bin\WebApplicationFATEC.dll.config
+E:\C#\WebApplicationFATEC\bin\WebApplicationFATEC.dll
+E:\C#\WebApplicationFATEC\bin\WebApplicationFATEC.pdb
+E:\C#\WebApplicationFATEC\bin\roslyn\csc.exe
+E:\C#\WebApplicationFATEC\bin\roslyn\csc.exe.config
+E:\C#\WebApplicationFATEC\bin\roslyn\csc.rsp
+E:\C#\WebApplicationFATEC\bin\roslyn\csi.exe
+E:\C#\WebApplicationFATEC\bin\roslyn\csi.exe.config
+E:\C#\WebApplicationFATEC\bin\roslyn\csi.rsp
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.Managed.Core.targets
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\C#\WebApplicationFATEC\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.AppContext.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Collections.Immutable.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Console.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Globalization.Calendars.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.IO.Compression.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Net.Http.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Net.Sockets.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Reflection.Metadata.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.ValueTuple.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Xml.XmlDocument.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\C#\WebApplicationFATEC\bin\roslyn\vbc.exe
+E:\C#\WebApplicationFATEC\bin\roslyn\vbc.exe.config
+E:\C#\WebApplicationFATEC\bin\roslyn\vbc.rsp
+E:\C#\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe
+E:\C#\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe.config
+E:\C#\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\C#\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\C#\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.AssemblyReference.cache
+E:\C#\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CoreCompileInputs.cache
+E:\C#\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CopyComplete
+E:\C#\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.dll
+E:\C#\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.pdb
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\WebApplicationFATEC.dll.config
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\WebApplicationFATEC.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\WebApplicationFATEC.pdb
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\csc.exe
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\csc.exe.config
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\csc.rsp
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\csi.exe
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\csi.exe.config
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\csi.rsp
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.AppContext.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Console.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.IO.Compression.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Net.Http.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.ValueTuple.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\vbc.exe
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\vbc.exe.config
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\vbc.rsp
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.AssemblyReference.cache
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CoreCompileInputs.cache
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CopyComplete
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.dll
+C:\Users\0040482221037\Desktop\C#\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.pdb
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\WebApplicationFATEC.dll.config
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\WebApplicationFATEC.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\WebApplicationFATEC.pdb
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\csc.exe
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\csc.exe.config
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\csc.rsp
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\csi.exe
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\csi.exe.config
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\csi.rsp
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.AppContext.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Console.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.IO.Compression.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Net.Http.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.ValueTuple.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\vbc.exe
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\vbc.exe.config
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\vbc.rsp
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.AssemblyReference.cache
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CoreCompileInputs.cache
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CopyComplete
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.dll
+C:\Users\0040482221037\Desktop\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.pdb
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\WebApplicationFATEC.dll.config
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\WebApplicationFATEC.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\WebApplicationFATEC.pdb
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\csc.exe
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\csc.exe.config
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\csc.rsp
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\csi.exe
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\csi.exe.config
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\csi.rsp
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.AppContext.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Console.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.Compression.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Net.Http.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.ValueTuple.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\vbc.exe
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\vbc.exe.config
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\vbc.rsp
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.AssemblyReference.cache
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CoreCompileInputs.cache
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CopyComplete
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.dll
+C:\Users\0040482221037\Desktop\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.pdb
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\WebApplicationFATEC.dll.config
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\WebApplicationFATEC.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\WebApplicationFATEC.pdb
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\csc.exe
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\csc.exe.config
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\csc.rsp
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\csi.exe
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\csi.exe.config
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\csi.rsp
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.AppContext.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Console.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.Compression.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Net.Http.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.ValueTuple.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\vbc.exe
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\vbc.exe.config
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\vbc.rsp
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.AssemblyReference.cache
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CoreCompileInputs.cache
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CopyComplete
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.dll
+C:\Users\0040482221037\Documents\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.pdb
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\WebApplicationFATEC.dll.config
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\WebApplicationFATEC.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\WebApplicationFATEC.pdb
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\csc.exe
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\csc.exe.config
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\csc.rsp
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\csi.exe
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\csi.exe.config
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\csi.rsp
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.AppContext.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Console.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Net.Http.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\vbc.exe
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\vbc.exe.config
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\vbc.rsp
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.AssemblyReference.cache
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CopyComplete
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.dll
+C:\Users\Rafael\Desktop\Pastas\ADS\2 semestre\Programação em C#\C#\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.pdb
+E:\#2\WebApplicationFATEC\bin\WebApplicationFATEC.dll.config
+E:\#2\WebApplicationFATEC\bin\WebApplicationFATEC.dll
+E:\#2\WebApplicationFATEC\bin\WebApplicationFATEC.pdb
+E:\#2\WebApplicationFATEC\bin\roslyn\csc.exe
+E:\#2\WebApplicationFATEC\bin\roslyn\csc.exe.config
+E:\#2\WebApplicationFATEC\bin\roslyn\csc.rsp
+E:\#2\WebApplicationFATEC\bin\roslyn\csi.exe
+E:\#2\WebApplicationFATEC\bin\roslyn\csi.exe.config
+E:\#2\WebApplicationFATEC\bin\roslyn\csi.rsp
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Managed.Core.targets
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.AppContext.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Collections.Immutable.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Console.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Globalization.Calendars.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.IO.Compression.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Net.Http.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Net.Sockets.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Reflection.Metadata.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.ValueTuple.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XmlDocument.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\#2\WebApplicationFATEC\bin\roslyn\vbc.exe
+E:\#2\WebApplicationFATEC\bin\roslyn\vbc.exe.config
+E:\#2\WebApplicationFATEC\bin\roslyn\vbc.rsp
+E:\#2\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe
+E:\#2\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe.config
+E:\#2\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\#2\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.AssemblyReference.cache
+E:\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CoreCompileInputs.cache
+E:\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CopyComplete
+E:\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.dll
+E:\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.pdb
+E:\#2\WebApplicationFATEC\bin\Ads2023.dll
+E:\#2\WebApplicationFATEC\bin\Ads2023.pdb
+E:\C# novo\#2\WebApplicationFATEC\bin\WebApplicationFATEC.dll.config
+E:\C# novo\#2\WebApplicationFATEC\bin\WebApplicationFATEC.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\WebApplicationFATEC.pdb
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\csc.exe
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\csc.exe.config
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\csc.rsp
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\csi.exe
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\csi.exe.config
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\csi.rsp
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Managed.Core.targets
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.AppContext.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Collections.Immutable.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Console.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Globalization.Calendars.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.IO.Compression.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Net.Http.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Net.Sockets.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Reflection.Metadata.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.ValueTuple.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XmlDocument.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\vbc.exe
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\vbc.exe.config
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\vbc.rsp
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe
+E:\C# novo\#2\WebApplicationFATEC\bin\roslyn\VBCSCompiler.exe.config
+E:\C# novo\#2\WebApplicationFATEC\bin\Ads2023.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\Ads2023.pdb
+E:\C# novo\#2\WebApplicationFATEC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\C# novo\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.AssemblyReference.cache
+E:\C# novo\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CoreCompileInputs.cache
+E:\C# novo\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.csproj.CopyComplete
+E:\C# novo\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.dll
+E:\C# novo\#2\WebApplicationFATEC\obj\Debug\WebApplicationFATEC.pdb
+E:\C# novo\#2\WebApplicationFATEC\bin\Datapost.Access.dll
+E:\C# novo\#2\WebApplicationFATEC\bin\Datapost.Access.pdb
+E:\C# novo\#2\WebApplicationFATEC\bin\Datapost.Access.xml
