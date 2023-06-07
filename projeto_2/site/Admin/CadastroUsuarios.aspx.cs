@@ -41,6 +41,13 @@ namespace site.Admin
                 }
                 acesso.DataProviderName = DAO.ProviderName.OleDb;
                 acesso.ConnectionString = conexao;
+
+                // Verifica se o nome de acesso já existe
+                if (!PossoGravar(txtNomeAcesso.Text, Convert.ToInt32(Codigo.Text)))
+                {
+                    lblMensagem.Text = "Já existe um usuário com este nome de acesso!";
+                    return;
+                }
                 acesso.Query(comando);
 
                 CarregarGrid();
@@ -64,7 +71,7 @@ namespace site.Admin
         protected void CarregarGrid()
         {
             //Carrega o GridView com os dados da tabela Usuarios
-            string comando = "SELECT Codigo, NomeCompleto FROM Usuarios ORDER BY NomeCompleto;";
+            string comando = "SELECT Codigo, NomeCompleto, NomeAcesso FROM Usuarios ORDER BY NomeCompleto;";
             acesso.DataProviderName = DAO.ProviderName.OleDb;
             acesso.ConnectionString = conexao;
             ViewUsuarios.DataSource = acesso.Query(comando);
@@ -107,6 +114,21 @@ namespace site.Admin
         protected void btnLimpar_Click(object sender, EventArgs e)
         {
             LimparCampos();
+        }
+
+        protected bool PossoGravar(string NomeAcesso, int Codigo)
+        {
+            string comando = $"select * from Usuarios where NomeAcesso = '{NomeAcesso}';";
+            acesso.DataProviderName = DAO.ProviderName.OleDb;
+            acesso.ConnectionString = conexao;
+            DataTable tabela = new DataTable();
+            tabela = (DataTable)acesso.Query(comando);
+
+            if (tabela.Rows.Count > 0) {
+                return (Codigo == Convert.ToInt32(tabela.Rows[0]["Codigo"])) ? true : false;
+            } else {
+                return true; // Não existe nenhum usuário com este nome de acesso
+            }
         }
 
     }

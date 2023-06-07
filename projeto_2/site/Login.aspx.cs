@@ -29,12 +29,12 @@ namespace site
             
             DataTable dados = new DataTable();
 
-            dados.DataProviderName = DAO.ProviderName.OleDb;
-            dados.ConnectionString = conexao;
+            acesso.DataProviderName = DAO.ProviderName.OleDb;
+            acesso.ConnectionString = conexao;
 
             dados = (DataTable)acesso.Query(comando);
 
-            if (dados.Rows.Count == 0) // Fazer tratamento de cadastro de usuário único (pra nota 10)
+            //if (dados.Rows.Count == 0) // Fazer tratamento de cadastro de usuário único (pra nota 10)
             if (dados.Rows.Count > 0)
             {
                 // Cria a variavel de sessão para identificar que o usuário esta autenticado e
